@@ -1,0 +1,22 @@
+##/vis/viewer/set/style wireframe
+
+/run/initialize
+
+#/geometry/test/verbose 1
+#/geometry/test/tolerance 0.001 mm
+/geometry/test/run
+
+/vis/open OGL
+
+#/vis/scene/add/volume !maxTouchableDepth 3
+/vis/scene/add/axes
+/vis/sceneHandler/attach
+
+#/vis/scene/endOfEventAction accumulate
+#/vis/viewer/set/autoRefresh true
+
+/vis/drawVolume
+
+/vis/viewer/update
+
+/vis/scene/add/trajectories smooth
