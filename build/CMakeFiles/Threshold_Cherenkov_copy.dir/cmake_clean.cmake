@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o.d"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o.d"
+  "CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o"
+  "CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o.d"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o.d"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o"

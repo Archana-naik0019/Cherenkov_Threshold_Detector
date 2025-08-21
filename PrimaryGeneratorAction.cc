@@ -3,8 +3,9 @@
 #include "G4ParticleTable.hh"
 #include "G4MuonMinus.hh"
 #include "G4SystemOfUnits.hh"
-//#include "EventAction.hh"
+#include "EventAction.hh"
 #include "G4RandomTools.hh"
+#include "SteppingAction.hh"		//additional condition on muons(scint pass)
 
 
 PrimaryGeneratorAction::PrimaryGeneratorAction() {
@@ -15,11 +16,19 @@ PrimaryGeneratorAction::PrimaryGeneratorAction() {
 
     // Oblique direction: ~7° from vertical
     G4double theta = 20 * deg;
-    G4ThreeVector direction(std::sin(theta), 0., -std::cos(theta));
-    fParticleGun->SetParticleMomentumDirection(direction);
+    G4double phi   = 180*deg;
+    G4ThreeVector dir(std::sin(theta)*std::cos(phi),
+                  std::sin(theta)*std::sin(phi),
+                  -std::cos(theta));
+    fParticleGun->SetParticleMomentumDirection(dir);
+    ///G4ThreeVector direction(-std::sin(theta), -0.15 , -std::cos(theta));
+    ///fParticleGun->SetParticleMomentumDirection(direction);
 
     // Start at bottom left of gas cylinder
-    fParticleGun->SetParticlePosition(G4ThreeVector(-30 * cm, 0 , 100.0 * cm));
+    //fParticleGun->SetParticlePosition(G4ThreeVector(23.5 * cm, 0 * cm , 130.0 * cm));
+    fParticleGun->SetParticlePosition(G4ThreeVector(30.0 * cm, 0 * cm , 100.0 * cm));
+    
+    
 
     // Energy
     //fParticleGun->SetParticleEnergy(5.0 * GeV);

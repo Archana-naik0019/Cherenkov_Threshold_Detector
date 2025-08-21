@@ -11,8 +11,13 @@
 #include "G4VProcess.hh"
 #include "G4ProcessManager.hh"
 #include "EventAction.hh"
+#include "G4RunManager.hh"
+#include "G4AnalysisManager.hh"
 
 #include <fstream>
+
+#include "BookScintillatorArray.hh"
+#include "G4LogicalVolumeStore.hh"
 
 #include "QEManager.hh"
 static QEManager qeManager("../QE_Curves_Q_1nm.csv");
@@ -23,7 +28,9 @@ SteppingAction::~SteppingAction() {}
 
 void SteppingAction::UserSteppingAction(const G4Step* step) {
 
-    static std::ofstream outfile("secondary_4_info.txt", std::ios::app); //"app" to append event-wise info in same file, "out" would be over-writing it
+
+    /*
+    static std::ofstream outfile("secondary_15_info.txt", std::ios::app); //"app" to append event-wise info in same file, "out" would be over-writing it
     G4int eventID = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
 
     
@@ -107,18 +114,67 @@ void SteppingAction::UserSteppingAction(const G4Step* step) {
                    
         }
     }
-
+*/   //commenting above part due to storage issues, required to obtain track_info.txt)
     
     G4Track* track = step->GetTrack();
     
+    //*******************************************************************************
+    if (track->GetDefinition()->GetParticleName() == "mu-") {
+    G4double stepLength = step->GetStepLength();
+    EventAction* eventAction = static_cast<EventAction*>(
+    G4EventManager::GetEventManager()->GetUserEventAction());
+    eventAction->AddMuonTrackLength(stepLength);
+    }
+    //*****************************************************************************
+    
+    //----------for 4-fold via scint----------------------------------------attempt1-----------
+    //auto eventAction = const_cast<EventAction*>(
+    //static_cast<const EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction())
+    //);
+    //auto volume = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume()->GetLogicalVolume();
+
+    //if (volume == Logic_Booklet1) eventAction->SetBookletHit(0);
+    //if (volume == Logic_Booklet2) eventAction->SetBookletHit(1);
+    //if (volume == Logic_Booklet3) eventAction->SetBookletHit(2);
+    //if (volume == Logic_Booklet4) eventAction->SetBookletHit(3);
+   //---------------------------------------------------------------------attempt2--------
+   auto* eventAction = const_cast<EventAction*>(
+        static_cast<const EventAction*>(
+            G4RunManager::GetRunManager()->GetUserEventAction()));
+
+    // Get current logical volume
+    auto volume = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume()->GetLogicalVolume();
+
+    // Retrieve your booklet logicals by name (only the first time)
+    static auto* logicB1 = G4LogicalVolumeStore::GetInstance()->GetVolume("Logic_Booklet1");
+    static auto* logicB2 = G4LogicalVolumeStore::GetInstance()->GetVolume("Logic_Booklet2");
+    static auto* logicB3 = G4LogicalVolumeStore::GetInstance()->GetVolume("Logic_Booklet3");
+    static auto* logicB4 = G4LogicalVolumeStore::GetInstance()->GetVolume("Logic_Booklet4");
+
+    if (volume == logicB1){
+        eventAction->SetBookletHit(0); //added laterr
+    if (volume == logicB2){
+        eventAction->SetBookletHit(1); //added laterr
+    if (volume == logicB3){
+        eventAction->SetBookletHit(2); //added laterr
+    if (volume == logicB4){
+        eventAction->SetBookletHit(3); //added laterr
+    }
+    }
+    }
+    }
+    //----------------------------------------------------------------------------------------
 
     
     if (track->GetDefinition() != G4OpticalPhoton::Definition()) return;
 
+G4double energy = track->GetTotalEnergy(); // in MeV
+G4double wavelength = 1239.841939 / (energy* 1.0e6);     // in nm 
+
     auto* runAction = const_cast<RunAction*>(
         static_cast<const RunAction*>(G4RunManager::GetRunManager()->GetUserRunAction()));
-    auto* eventAction = const_cast<EventAction*>(
-        static_cast<const EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction()));
+    //auto* eventAction = const_cast<EventAction*>(
+        //static_cast<const EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction())); //re-defined on line 42
 
     if (!runAction || !eventAction) return;
 
@@ -126,9 +182,26 @@ void SteppingAction::UserSteppingAction(const G4Step* step) {
     if (track->GetCurrentStepNumber() == 1) {
         runAction->IncrementGeneratedPhotons();
         eventAction->IncrementEventGeneratedPhotons();
+        
+        auto* analysisManager = G4AnalysisManager::Instance();
+        analysisManager->FillH1(analysisManager->GetH1Id("hGeneratedWavelength"), wavelength);
+        
+        if (eventAction->AllBookletsHit()) {
+        analysisManager->FillH1(analysisManager->GetH1Id("hGeneratedWavelength_4-fold"), wavelength);
+        }//trial
     }
+    
+    //******************************************************************************
+        if (track->GetDefinition()->GetParticleName() == "opticalphoton" &&
+            track->GetCreatorProcess() &&
+            track->GetCreatorProcess()->GetProcessName() == "Cerenkov") {
+    
+            eventAction->IncrementGeneratedCherenkovPhotons();
+        }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////working counting without opabs//////////
+    //*********************************************************************************
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////working counting without opabs,without qe//////////
 //G4StepPoint* preStepPoint = step->GetPreStepPoint();
 //G4StepPoint* postStepPoint = step->GetPostStepPoint();
 
@@ -139,13 +212,14 @@ void SteppingAction::UserSteppingAction(const G4Step* step) {
 //    if (postVolume && postVolume->GetName() == "PMT" &&
 //        (!preVolume || preVolume->GetName() != "PMT")) {
         
-//        runAction->IncrementDetectedPhotons();
-//        eventAction->IncrementEventDetectedPhotons();
+//        runAction->IncrementPhotonsAtPMT();
+//        eventAction->IncrementEventPhotonsAtPMT();
 
 //        G4cout << "[Detected] Optical Photon entered the PMT!" << G4endl;
 //        track->SetTrackStatus(fStopAndKill);
 //    }
 //}
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////counting without opabs, with qe/////////////////////////
 
 G4StepPoint* preStepPoint = step->GetPreStepPoint();
@@ -157,9 +231,18 @@ if (preStepPoint && postStepPoint) {
 
 if (postVolume && postVolume->GetName() == "PMT" &&
     (!preVolume || preVolume->GetName() != "PMT")) {
+    
+        runAction->IncrementPhotonsAtPMT(); //additional record keeping
+        eventAction->IncrementEventPhotonsAtPMT();
+        auto* analysisManager = G4AnalysisManager::Instance();
+        analysisManager->FillH1(analysisManager->GetH1Id("hAtPMTWavelength"), wavelength);
+        
+        if (eventAction->AllBookletsHit()) {
+        analysisManager->FillH1(analysisManager->GetH1Id("hAtPMTWavelength_4-fold"), wavelength);
+        }
 
-G4double energy = track->GetTotalEnergy(); // in MeV
-G4double wavelength = 1240.0 / (energy* 1.0e6);     // in nm
+
+///////////////////////////////////////////////////////////////////////////////
 
 G4double qe = qeManager.GetQE(wavelength);
 G4double rnd = G4UniformRand();
@@ -167,6 +250,13 @@ G4double rnd = G4UniformRand();
 if (rnd < qe) {
     runAction->IncrementDetectedPhotons();
     eventAction->IncrementEventDetectedPhotons();
+    auto* analysisManager = G4AnalysisManager::Instance();
+    analysisManager->FillH1(analysisManager->GetH1Id("hDetectedWavelength"), wavelength);
+    
+    if (eventAction->AllBookletsHit()) {
+    analysisManager->FillH1(analysisManager->GetH1Id("hDetectedWavelength_4-fold"), wavelength);
+        }
+     
     G4cout << "[Detected] Photon at " << wavelength << " nm, QE = " << qe << G4endl;
 } else {
     G4cout << "[Missed] Photon at " << wavelength << " nm, QE = " << qe << G4endl;
@@ -231,37 +321,6 @@ track->SetTrackStatus(fStopAndKill);
 //        track->SetTrackStatus(fStopAndKill);
 //}
 //}
-
-//******************************************************************************the following section is for getting photons generated per unit length***************************************
-	G4String volumeName = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume()->GetName();
-	//G4Track* track = step->GetTrack();
-
-	// Only consider muons in GasPV
-	if (volumeName == "GasPV" && track->GetDefinition()->GetParticleName() == "mu-") {
-	    fTotalMuonStepLengthInGas += step->GetStepLength();
-	}
-
-	// Count secondary Cherenkov photons created in GasPV
-	//const std::vector<const G4Track*>* secondaries = step->GetSecondaryInCurrentStep();
-	for (auto sec : *secondaries) {
-	    if (sec->GetCreatorProcess() && sec->GetCreatorProcess()->GetProcessName() == "Cerenkov") {
-		if (step->GetPreStepPoint()->GetTouchableHandle()->GetVolume()->GetName() == "GasPV") {
-		    fTotalCherenkovPhotonsInGas++;
-		}
-	    }
-	}
-	
-	EventAction* evt = const_cast<EventAction*>(dynamic_cast<const EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction()));
-	//EventAction* evt = static_cast<EventAction*>(G4RunManager::GetRunManager()->GetUserEventAction());
-	evt->AddMuonStepLengthInGas(fTotalMuonStepLengthInGas);
-	evt->AddCherenkovPhotonsInGas(fTotalCherenkovPhotonsInGas);
-
-	//resetting local counters at end of each event
-	fTotalMuonStepLengthInGas = 0.0;
-        fTotalCherenkovPhotonsInGas = 0;
-
-//************************************************************************************************************************************************************************************************
-
 
 ///////////////////////////////////////////////////////////////////$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
     // Reflection/TIR handling

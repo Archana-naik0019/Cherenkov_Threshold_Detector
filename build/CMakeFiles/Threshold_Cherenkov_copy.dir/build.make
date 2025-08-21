@@ -111,10 +111,24 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.cc -o CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.s
 
+CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
+CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc
+CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc
+
+CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc > CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.i
+
+CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc -o CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.s
+
 CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.s: cmake_force
 CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.s: cmake_force
 CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/PhysicsList.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/PhysicsList.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.s: cmake_force
 CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.s: cmake_force
 CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.s: cmake_force
 CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.s: cmake_force
 CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.s: cmake_force
 CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/flags.make
 CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.cc
 CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: CMakeFiles/Threshold_Cherenkov_copy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o -MF CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o.d -o CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o -c /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.cc
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.i: cmake_force
@@ -228,6 +242,7 @@ Threshold_Cherenkov_copy_OBJECTS = \
 "CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o" \
 "CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o" \
 "CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o" \
+"CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o" \
 "CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o" \
 "CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o" \
 "CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o" \
@@ -243,6 +258,7 @@ Threshold_Cherenkov_copy_EXTERNAL_OBJECTS =
 Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o
 Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o
 Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o
+Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o
 Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o
 Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o
 Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o
@@ -290,7 +306,7 @@ Threshold_Cherenkov_copy: /root/geant4-install/lib/libG4global.so
 Threshold_Cherenkov_copy: /root/geant4-install/lib/libG4clhep.so
 Threshold_Cherenkov_copy: /root/geant4-install/lib/libG4ptl.so.3.0.0
 Threshold_Cherenkov_copy: CMakeFiles/Threshold_Cherenkov_copy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Threshold_Cherenkov_copy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/Geant4Projects/Threshold_Cherenkov_copy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Threshold_Cherenkov_copy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Threshold_Cherenkov_copy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

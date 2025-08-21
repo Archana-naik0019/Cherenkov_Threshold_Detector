@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/Geant4Projects/Threshold_Cherenkov_copy/ActionInitialization.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o.d"
+  "/root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/PhysicsList.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o.d"

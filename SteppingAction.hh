@@ -23,9 +23,7 @@ private:
     G4int reflectedPhotons = 0;
     G4int tirPhotons = 0;
     
-    G4double fTotalMuonStepLengthInGas = 0.0;
-    G4int fTotalCherenkovPhotonsInGas = 0;
-
+    
 };
 
 #endif

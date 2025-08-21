@@ -19,6 +19,7 @@ public:
     void IncrementTIRPhotons();
     void IncrementGeneratedPhotons();
     void IncrementDetectedPhotons();
+    void IncrementPhotonsAtPMT();
 
     void ConstructHistograms();
     void RecordAmplificationFactor(G4double factor);
@@ -29,6 +30,7 @@ private:
     G4int reflectedPhotons = 0;
     G4int tirPhotons = 0;
     G4int totalGeneratedPhotons = 0;
+    G4int totalPhotonsAtPMT = 0;
     G4int totalDetectedPhotons = 0;
 
     std::vector<G4double> amplificationFactors;

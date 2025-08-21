@@ -150,6 +150,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
@@ -255,6 +256,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/compare \
   /usr/include/c++/13/complex \
   /usr/include/c++/13/condition_variable \
   /usr/include/c++/13/cstddef \
@@ -839,8 +841,426 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o: /root/Geant4
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
+CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc \
+  /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.hh \
+  /root/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /root/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+  /root/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /root/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /root/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+  /root/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationY.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /root/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+  /root/geant4-install/include/Geant4/G4AffineTransform.hh \
+  /root/geant4-install/include/Geant4/G4AffineTransform.icc \
+  /root/geant4-install/include/Geant4/G4AutoLock.hh \
+  /root/geant4-install/include/Geant4/G4BooleanSolid.hh \
+  /root/geant4-install/include/Geant4/G4BooleanSolid.icc \
+  /root/geant4-install/include/Geant4/G4CSGSolid.hh \
+  /root/geant4-install/include/Geant4/G4Color.hh \
+  /root/geant4-install/include/Geant4/G4Colour.hh \
+  /root/geant4-install/include/Geant4/G4Cons.hh \
+  /root/geant4-install/include/Geant4/G4Cons.icc \
+  /root/geant4-install/include/Geant4/G4DataVector.hh \
+  /root/geant4-install/include/Geant4/G4DataVector.icc \
+  /root/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
+  /root/geant4-install/include/Geant4/G4DisplacedSolid.hh \
+  /root/geant4-install/include/Geant4/G4Element.hh \
+  /root/geant4-install/include/Geant4/G4ElementTable.hh \
+  /root/geant4-install/include/Geant4/G4ElementVector.hh \
+  /root/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
+  /root/geant4-install/include/Geant4/G4Exception.hh \
+  /root/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /root/geant4-install/include/Geant4/G4Exp.hh \
+  /root/geant4-install/include/Geant4/G4GeomConfig.hh \
+  /root/geant4-install/include/Geant4/G4GeomSplitter.hh \
+  /root/geant4-install/include/Geant4/G4GeomTypes.hh \
+  /root/geant4-install/include/Geant4/G4GlobalConfig.hh \
+  /root/geant4-install/include/Geant4/G4ICRU90StoppingData.hh \
+  /root/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /root/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /root/geant4-install/include/Geant4/G4Isotope.hh \
+  /root/geant4-install/include/Geant4/G4IsotopeVector.hh \
+  /root/geant4-install/include/Geant4/G4Log.hh \
+  /root/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+  /root/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
+  /root/geant4-install/include/Geant4/G4LogicalSurface.hh \
+  /root/geant4-install/include/Geant4/G4LogicalSurface.icc \
+  /root/geant4-install/include/Geant4/G4LogicalVolume.hh \
+  /root/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /root/geant4-install/include/Geant4/G4Material.hh \
+  /root/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /root/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /root/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /root/geant4-install/include/Geant4/G4MaterialTable.hh \
+  /root/geant4-install/include/Geant4/G4NistElementBuilder.hh \
+  /root/geant4-install/include/Geant4/G4NistManager.hh \
+  /root/geant4-install/include/Geant4/G4NistMaterialBuilder.hh \
+  /root/geant4-install/include/Geant4/G4Normal3D.hh \
+  /root/geant4-install/include/Geant4/G4OpticalSurface.hh \
+  /root/geant4-install/include/Geant4/G4OrderedTable.hh \
+  /root/geant4-install/include/Geant4/G4PVPlacement.hh \
+  /root/geant4-install/include/Geant4/G4Physics2DVector.hh \
+  /root/geant4-install/include/Geant4/G4Physics2DVector.icc \
+  /root/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /root/geant4-install/include/Geant4/G4PhysicsVector.hh \
+  /root/geant4-install/include/Geant4/G4PhysicsVector.icc \
+  /root/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
+  /root/geant4-install/include/Geant4/G4Point3D.hh \
+  /root/geant4-install/include/Geant4/G4Polyhedron.hh \
+  /root/geant4-install/include/Geant4/G4Pow.hh \
+  /root/geant4-install/include/Geant4/G4Region.hh \
+  /root/geant4-install/include/Geant4/G4Region.icc \
+  /root/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /root/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /root/geant4-install/include/Geant4/G4String.hh \
+  /root/geant4-install/include/Geant4/G4String.icc \
+  /root/geant4-install/include/Geant4/G4SubtractionSolid.hh \
+  /root/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+  /root/geant4-install/include/Geant4/G4SystemOfUnits.hh \
+  /root/geant4-install/include/Geant4/G4Threading.hh \
+  /root/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /root/geant4-install/include/Geant4/G4Transform3D.hh \
+  /root/geant4-install/include/Geant4/G4Tubs.hh \
+  /root/geant4-install/include/Geant4/G4Tubs.icc \
+  /root/geant4-install/include/Geant4/G4TwoVector.hh \
+  /root/geant4-install/include/Geant4/G4Types.hh \
+  /root/geant4-install/include/Geant4/G4UnionSolid.hh \
+  /root/geant4-install/include/Geant4/G4VBooleanProcessor.hh \
+  /root/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
+  /root/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /root/geant4-install/include/Geant4/G4VSolid.hh \
+  /root/geant4-install/include/Geant4/G4VSolid.icc \
+  /root/geant4-install/include/Geant4/G4VisAttributes.hh \
+  /root/geant4-install/include/Geant4/G4VisAttributes.icc \
+  /root/geant4-install/include/Geant4/G4Visible.hh \
+  /root/geant4-install/include/Geant4/G4Visible.icc \
+  /root/geant4-install/include/Geant4/G4ios.hh \
+  /root/geant4-install/include/Geant4/HepPolyhedron.h \
+  /root/geant4-install/include/Geant4/geomdefs.hh \
+  /root/geant4-install/include/Geant4/geomwdefs.hh \
+  /root/geant4-install/include/Geant4/globals.hh \
+  /root/geant4-install/include/Geant4/graphics_reps_defs.hh \
+  /root/geant4-install/include/Geant4/templates.hh \
+  /root/geant4-install/include/Geant4/tls.hh \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
+  /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/atomic \
+  /usr/include/c++/13/backward/auto_ptr.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/align.h \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_futex.h \
+  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/13/bits/basic_ios.h \
+  /usr/include/c++/13/bits/basic_ios.tcc \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/chrono.h \
+  /usr/include/c++/13/bits/codecvt.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/erase_if.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/fstream.tcc \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/ios_base.h \
+  /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/locale_classes.h \
+  /usr/include/c++/13/bits/locale_classes.tcc \
+  /usr/include/c++/13/bits/locale_conv.h \
+  /usr/include/c++/13/bits/locale_facets.h \
+  /usr/include/c++/13/bits/locale_facets.tcc \
+  /usr/include/c++/13/bits/locale_facets_nonio.h \
+  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream.tcc \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/parse_numbers.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
+  /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/sstream.tcc \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
+  /usr/include/c++/13/bits/std_thread.h \
+  /usr/include/c++/13/bits/stl_algo.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_map.h \
+  /usr/include/c++/13/bits/stl_multimap.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_tree.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/streambuf.tcc \
+  /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/this_thread_sleep.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/chrono \
+  /usr/include/c++/13/climits \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cmath \
+  /usr/include/c++/13/complex \
+  /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
+  /usr/include/c++/13/ctime \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/cwctype \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/aligned_buffer.h \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/concurrence.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/fstream \
+  /usr/include/c++/13/future \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iomanip \
+  /usr/include/c++/13/ios \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/iostream \
+  /usr/include/c++/13/istream \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/locale \
+  /usr/include/c++/13/map \
+  /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/ratio \
+  /usr/include/c++/13/sstream \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/streambuf \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/system_error \
+  /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/libintl.h \
+  /usr/include/limits.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+
 CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.hh \
+  /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.hh \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
@@ -1306,6 +1726,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.hh \
+  /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.hh \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
@@ -2338,7 +2759,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/T
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.cc \
+  /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.hh \
+  /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.hh \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h \
@@ -2504,6 +2927,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /root/geant4-install/include/Geant4/G4UIdirectory.hh \
   /root/geant4-install/include/Geant4/G4UImessenger.hh \
   /root/geant4-install/include/Geant4/G4UIparameter.hh \
+  /root/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /root/geant4-install/include/Geant4/G4UserSteppingAction.hh \
   /root/geant4-install/include/Geant4/G4VDigiCollection.hh \
   /root/geant4-install/include/Geant4/G4VExternalNavigation.hh \
   /root/geant4-install/include/Geant4/G4VHitsCollection.hh \
@@ -4264,6 +4689,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: /root/Geant4Proj
   /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.cc \
+  /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.hh \
@@ -4345,10 +4771,17 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/G4AffineTransform.icc \
   /root/geant4-install/include/Geant4/G4Allocator.hh \
   /root/geant4-install/include/Geant4/G4AllocatorPool.hh \
+  /root/geant4-install/include/Geant4/G4AnalysisManager.hh \
+  /root/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+  /root/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+  /root/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
   /root/geant4-install/include/Geant4/G4ApplicationState.hh \
   /root/geant4-install/include/Geant4/G4AutoLock.hh \
   /root/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
   /root/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
+  /root/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+  /root/geant4-install/include/Geant4/G4BaseFileManager.hh \
+  /root/geant4-install/include/Geant4/G4BinScheme.hh \
   /root/geant4-install/include/Geant4/G4BlockingList.hh \
   /root/geant4-install/include/Geant4/G4BlockingList.icc \
   /root/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
@@ -4367,11 +4800,18 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/G4EventManager.hh \
   /root/geant4-install/include/Geant4/G4Exception.hh \
   /root/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /root/geant4-install/include/Geant4/G4Fcn.hh \
   /root/geant4-install/include/Geant4/G4ForceCondition.hh \
   /root/geant4-install/include/Geant4/G4GPILSelection.hh \
+  /root/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+  /root/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+  /root/geant4-install/include/Geant4/G4GenericFileManager.hh \
+  /root/geant4-install/include/Geant4/G4GenericFileManager.icc \
   /root/geant4-install/include/Geant4/G4GeomSplitter.hh \
   /root/geant4-install/include/Geant4/G4GlobalConfig.hh \
   /root/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /root/geant4-install/include/Geant4/G4HnInformation.hh \
+  /root/geant4-install/include/Geant4/G4HnManager.hh \
   /root/geant4-install/include/Geant4/G4IonisParamElm.hh \
   /root/geant4-install/include/Geant4/G4IonisParamMat.hh \
   /root/geant4-install/include/Geant4/G4Isotope.hh \
@@ -4379,6 +4819,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/G4Log.hh \
   /root/geant4-install/include/Geant4/G4LogicalVolume.hh \
   /root/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /root/geant4-install/include/Geant4/G4LogicalVolumeStore.hh \
   /root/geant4-install/include/Geant4/G4LorentzVector.hh \
   /root/geant4-install/include/Geant4/G4Material.hh \
   /root/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
@@ -4398,6 +4839,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/G4NoProcess.hh \
   /root/geant4-install/include/Geant4/G4NormalNavigation.hh \
   /root/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /root/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+  /root/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
   /root/geant4-install/include/Geant4/G4OpBoundaryProcess.hh \
   /root/geant4-install/include/Geant4/G4OpticalPhoton.hh \
   /root/geant4-install/include/Geant4/G4OpticalSurface.hh \
@@ -4463,8 +4906,22 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/G4SubEvent.hh \
   /root/geant4-install/include/Geant4/G4SubEventTrackStack.hh \
   /root/geant4-install/include/Geant4/G4SurfaceProperty.hh \
+  /root/geant4-install/include/Geant4/G4TH1ToolsManager.hh \
+  /root/geant4-install/include/Geant4/G4TH2ToolsManager.hh \
+  /root/geant4-install/include/Geant4/G4TH3ToolsManager.hh \
+  /root/geant4-install/include/Geant4/G4THnManager.hh \
+  /root/geant4-install/include/Geant4/G4THnManager.icc \
+  /root/geant4-install/include/Geant4/G4THnMessenger.hh \
+  /root/geant4-install/include/Geant4/G4THnMessenger.icc \
+  /root/geant4-install/include/Geant4/G4THnToolsManager.hh \
+  /root/geant4-install/include/Geant4/G4THnToolsManager.icc \
+  /root/geant4-install/include/Geant4/G4TP1ToolsManager.hh \
+  /root/geant4-install/include/Geant4/G4TP2ToolsManager.hh \
   /root/geant4-install/include/Geant4/G4Threading.hh \
   /root/geant4-install/include/Geant4/G4ThreeVector.hh \
+  /root/geant4-install/include/Geant4/G4Tokenizer.hh \
+  /root/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+  /root/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
   /root/geant4-install/include/Geant4/G4TouchableHandle.hh \
   /root/geant4-install/include/Geant4/G4TouchableHistory.hh \
   /root/geant4-install/include/Geant4/G4TouchableHistory.icc \
@@ -4488,11 +4945,16 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/G4UserStackingAction.hh \
   /root/geant4-install/include/Geant4/G4UserSteppingAction.hh \
   /root/geant4-install/include/Geant4/G4UserTrackingAction.hh \
+  /root/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+  /root/geant4-install/include/Geant4/G4VAnalysisManager.icc \
   /root/geant4-install/include/Geant4/G4VDigiCollection.hh \
   /root/geant4-install/include/Geant4/G4VDiscreteProcess.hh \
   /root/geant4-install/include/Geant4/G4VExternalNavigation.hh \
+  /root/geant4-install/include/Geant4/G4VFileManager.hh \
   /root/geant4-install/include/Geant4/G4VHitsCollection.hh \
   /root/geant4-install/include/Geant4/G4VNavigation.hh \
+  /root/geant4-install/include/Geant4/G4VNotifier.hh \
+  /root/geant4-install/include/Geant4/G4VNtupleManager.hh \
   /root/geant4-install/include/Geant4/G4VPVParameterisation.hh \
   /root/geant4-install/include/Geant4/G4VParticleChange.hh \
   /root/geant4-install/include/Geant4/G4VParticleChange.icc \
@@ -4502,6 +4964,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/G4VSolid.hh \
   /root/geant4-install/include/Geant4/G4VSolid.icc \
   /root/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
+  /root/geant4-install/include/Geant4/G4VStoreNotifier.hh \
+  /root/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
+  /root/geant4-install/include/Geant4/G4VTHnFileManager.hh \
   /root/geant4-install/include/Geant4/G4VTouchable.hh \
   /root/geant4-install/include/Geant4/G4VTrajectory.hh \
   /root/geant4-install/include/Geant4/G4VUserEventInformation.hh \
@@ -4519,6 +4984,30 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/rundefs.hh \
   /root/geant4-install/include/Geant4/templates.hh \
   /root/geant4-install/include/Geant4/tls.hh \
+  /root/geant4-install/include/Geant4/tools/cid \
+  /root/geant4-install/include/Geant4/tools/cids \
+  /root/geant4-install/include/Geant4/tools/eqT \
+  /root/geant4-install/include/Geant4/tools/forit \
+  /root/geant4-install/include/Geant4/tools/histo/axes \
+  /root/geant4-install/include/Geant4/tools/histo/axis \
+  /root/geant4-install/include/Geant4/tools/histo/b1 \
+  /root/geant4-install/include/Geant4/tools/histo/b2 \
+  /root/geant4-install/include/Geant4/tools/histo/b3 \
+  /root/geant4-install/include/Geant4/tools/histo/base_histo \
+  /root/geant4-install/include/Geant4/tools/histo/h1 \
+  /root/geant4-install/include/Geant4/tools/histo/h1d \
+  /root/geant4-install/include/Geant4/tools/histo/h2 \
+  /root/geant4-install/include/Geant4/tools/histo/h2d \
+  /root/geant4-install/include/Geant4/tools/histo/h3 \
+  /root/geant4-install/include/Geant4/tools/histo/h3d \
+  /root/geant4-install/include/Geant4/tools/histo/histo_data \
+  /root/geant4-install/include/Geant4/tools/histo/p1 \
+  /root/geant4-install/include/Geant4/tools/histo/p1d \
+  /root/geant4-install/include/Geant4/tools/histo/p2 \
+  /root/geant4-install/include/Geant4/tools/histo/p2d \
+  /root/geant4-install/include/Geant4/tools/histo/profile_data \
+  /root/geant4-install/include/Geant4/tools/ntuple_booking \
+  /root/geant4-install/include/Geant4/tools/typedefs \
   /root/geant4-install/include/Geant4/trkdefs.hh \
   /root/geant4-install/include/Geant4/trkgdefs.hh \
   /usr/include/alloca.h \
@@ -4611,6 +5100,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /usr/include/c++/13/bits/stl_multiset.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
@@ -4700,6 +5190,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
@@ -5693,13 +6184,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4TaskManager.hh:
 
-/root/geant4-install/include/Geant4/G4THitsMap.hh:
-
 /root/geant4-install/include/Geant4/G4THitsCollection.hh:
 
 /root/geant4-install/include/Geant4/G4TBBTaskGroup.hh:
-
-/root/geant4-install/include/Geant4/G4Sphere.hh:
 
 /root/geant4-install/include/Geant4/G4SceneList.hh:
 
@@ -5751,17 +6238,21 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4DAWNFILE.hh:
 
-/root/geant4-install/include/Geant4/G4Cons.icc:
-
 /root/geant4-install/include/Geant4/G4AttValue.hh:
 
 /root/geant4-install/include/Geant4/G4AttDef.hh:
 
 /root/geant4-install/include/Geant4/CLHEP/Geometry/Plane3D.h:
 
+/root/geant4-install/include/Geant4/G4VStoreNotifier.hh:
+
+/root/geant4-install/include/Geant4/G4VNotifier.hh:
+
 /root/geant4-install/include/Geant4/G4VDiscreteProcess.hh:
 
 /root/geant4-install/include/Geant4/G4OpBoundaryProcess.hh:
+
+/root/geant4-install/include/Geant4/G4LogicalVolumeStore.hh:
 
 /root/geant4-install/include/Geant4/G4Run.hh:
 
@@ -5879,17 +6370,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/list:
 
-/root/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh:
-
-/usr/include/c++/13/compare:
-
 /usr/include/c++/13/bits/stl_relops.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/fenv.h:
-
-/usr/include/c++/13/array:
 
 /root/geant4-install/include/Geant4/tools/ntuple_booking:
 
@@ -5938,10 +6419,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/G4VTBaseHnManager.hh:
 
 /root/geant4-install/include/Geant4/G4VSteppingVerbose.hh:
-
-/root/geant4-install/include/Geant4/G4Cons.hh:
-
-/root/geant4-install/include/Geant4/G4VProcess.hh:
 
 /root/geant4-install/include/Geant4/G4VParticleChange.hh:
 
@@ -6107,11 +6584,31 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.h:
 
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBit.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/DualRand.h:
+
+/root/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
+
+/root/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh:
+
 /root/geant4-install/include/Geant4/G4Sphere.icc:
 
 /root/geant4-install/include/Geant4/tools/histo/p2:
 
 /usr/include/c++/13/complex:
+
+/root/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh:
+
+/usr/include/c++/13/compare:
 
 /root/geant4-install/include/Geant4/tools/typedefs:
 
@@ -6123,7 +6620,19 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4NavigationHistory.icc:
 
+/usr/include/c++/13/bits/regex_executor.tcc:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
 /usr/include/c++/13/bits/stl_set.h:
+
+/root/geant4-install/include/Geant4/G4VUPLSplitter.hh:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/c++/13/bits/regex_automaton.tcc:
 
@@ -6137,7 +6646,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
-/usr/include/c++/13/cstddef:
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h:
+
+/usr/include/c++/13/bits/stl_algo.h:
 
 /root/geant4-install/include/Geant4/G4UserTrackingAction.hh:
 
@@ -6169,17 +6680,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/bits/range_access.h:
 
-/root/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh:
-
 /usr/include/c++/13/bits/uses_allocator.h:
 
-/usr/include/c++/13/bits/regex_executor.tcc:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc:
-
 /usr/include/c++/13/bits/move.h:
+
+/root/geant4-install/include/Geant4/G4THitsMap.hh:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.hh:
 
 /root/geant4-install/include/Geant4/G4StepPoint.icc:
 
@@ -6188,12 +6695,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /usr/include/c++/13/bits/requires_hosted.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/root/geant4-install/include/Geant4/G4PrimaryVertex.hh:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/JamesRandom.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
@@ -6259,6 +6760,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/atomic:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/fenv.h:
+
+/usr/include/c++/13/array:
+
 /usr/include/c++/13/algorithm:
 
 /root/geant4-install/include/Geant4/G4VTrajectory.hh:
@@ -6282,6 +6789,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/geomwdefs.hh:
 
 /root/geant4-install/include/Geant4/G4UIparameter.hh:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /root/geant4-install/include/Geant4/evtdefs.hh:
 
@@ -6321,8 +6834,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4LogicalVolume.hh:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc:
-
 /root/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh:
 
 /usr/include/c++/13/cmath:
@@ -6330,6 +6841,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /root/geant4-install/include/Geant4/G4Event.hh:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc:
 
 /root/geant4-install/include/Geant4/G4PhysicsFreeVector.hh:
 
@@ -6436,8 +6949,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /usr/include/c++/13/bits/atomic_base.h:
 
 /root/geant4-install/include/Geant4/G4AffineTransform.hh:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h:
 
 /root/geant4-install/include/Geant4/G4DigiFilterFactories.hh:
 
@@ -6547,6 +7058,10 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/bits/stl_vector.h:
 
+/root/geant4-install/include/Geant4/trkdefs.hh:
+
+/root/geant4-install/include/Geant4/G4Exception.hh:
+
 /root/geant4-install/include/Geant4/G4ProcessManager.icc:
 
 /root/geant4-install/include/Geant4/G4ICRU90StoppingData.hh:
@@ -6604,6 +7119,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/13/cstddef:
 
 /usr/include/c++/13/bits/quoted_string.h:
 
@@ -6711,8 +7228,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4ParticleGun.hh:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBit.h:
-
 /root/geant4-install/include/Geant4/G4PhysicsVector.icc:
 
 /usr/include/c++/13/memory:
@@ -6738,14 +7253,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /usr/include/c++/13/bits/basic_string.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/13/condition_variable:
-
-/root/geant4-install/include/Geant4/tools/histo/h1:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/c++/13/cerrno:
 
@@ -6797,8 +7304,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4SteppingControl.hh:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/DualRand.h:
-
 /usr/include/c++/13/streambuf:
 
 /usr/include/c++/13/climits:
@@ -6826,6 +7331,14 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /usr/include/c++/13/bits/algorithmfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/condition_variable:
+
+/root/geant4-install/include/Geant4/tools/histo/h1:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/c++/13/regex:
 
@@ -6929,6 +7442,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
+/root/geant4-install/include/Geant4/G4LogicalBorderSurface.hh:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc:
+
+/usr/include/c++/13/ratio:
+
 /root/geant4-install/include/Geant4/G4OpenGLQt.hh:
 
 /usr/include/linux/limits.h:
@@ -6953,12 +7472,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/stdlib.h:
 
-/root/geant4-install/include/Geant4/G4VUPLSplitter.hh:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/c++/13/system_error:
-
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/c++/13/thread:
@@ -6979,6 +7492,10 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
+/root/geant4-install/include/Geant4/G4Sphere.hh:
+
+/root/geant4-install/include/Geant4/G4UnionSolid.hh:
+
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
 
 /root/geant4-install/include/Geant4/G4UIsession.hh:
@@ -6991,6 +7508,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/tr1/riemann_zeta.tcc:
 
+/root/geant4-install/include/Geant4/G4VBooleanProcessor.hh:
+
 /usr/include/c++/13/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/13/tr1/special_function_util.h:
@@ -7000,12 +7519,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/G4Exp.hh:
 
 /root/geant4-install/include/Geant4/G4LogicalSurface.icc:
-
-/root/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
-
-/usr/include/c++/13/ratio:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc:
 
 /root/geant4-install/include/Geant4/G4UIcommand.hh:
 
@@ -7022,6 +7535,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/libintl.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/root/geant4-install/include/Geant4/G4PrimaryVertex.hh:
+
+/root/geant4-install/include/Geant4/G4LogicalBorderSurface.icc:
 
 /root/geant4-install/include/Geant4/G4ProductionCutsTable.hh:
 
@@ -7165,6 +7684,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
+/root/geant4-install/include/Geant4/G4DisplacedSolid.hh:
+
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
@@ -7267,6 +7788,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc:
 
+/root/geant4-install/include/Geant4/G4BooleanSolid.icc:
+
 /root/geant4-install/include/Geant4/G4Box.icc:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h:
@@ -7325,6 +7848,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4SystemOfUnits.hh:
 
+/root/geant4-install/include/Geant4/G4BooleanSolid.hh:
+
 /root/geant4-install/include/Geant4/G4TwoVector.hh:
 
 /root/geant4-install/include/Geant4/G4RayTracer.hh:
@@ -7333,9 +7858,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4PolyconeHistorical.hh:
 
-/root/geant4-install/include/Geant4/G4TouchableHandle.hh:
-
 /usr/include/c++/13/bits/postypes.h:
+
+/root/geant4-install/include/Geant4/G4TouchableHandle.hh:
 
 /root/geant4-install/include/Geant4/G4Visible.icc:
 
@@ -7343,15 +7868,41 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/HepPolyhedron.h:
 
+/root/geant4-install/include/Geant4/G4Color.hh:
+
+/root/geant4-install/include/Geant4/G4VProcess.hh:
+
+/root/geant4-install/include/Geant4/G4Cons.hh:
+
+/root/geant4-install/include/Geant4/G4Cons.icc:
+
+/root/geant4-install/include/Geant4/G4Physics2DVector.hh:
+
+/root/geant4-install/include/Geant4/G4SubtractionSolid.hh:
+
+/usr/include/c++/13/bits/regex_compiler.tcc:
+
+/root/geant4-install/include/Geant4/G4Material.hh:
+
+/root/geant4-install/include/Geant4/G4Tubs.hh:
+
+/root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc:
+
+/root/geant4-install/include/Geant4/G4VHit.hh:
+
+/usr/include/c++/13/bits/unordered_map.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc:
+
+/root/geant4-install/include/Geant4/G4Tubs.icc:
+
+/root/geant4-install/include/Geant4/G4VisAttributes.hh:
+
+/root/geant4-install/include/Geant4/graphics_reps_defs.hh:
+
 /root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.hh:
 
 /root/geant4-install/include/Geant4/G4CollectionNameVector.hh:
-
-/root/geant4-install/include/Geant4/G4Exception.hh:
-
-/root/geant4-install/include/Geant4/trkdefs.hh:
-
-/root/geant4-install/include/Geant4/G4Color.hh:
 
 /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.hh:
 
@@ -7372,8 +7923,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/G4LorentzVector.hh:
 
 /root/geant4-install/include/Geant4/G4PhysicalConstants.hh:
-
-/root/geant4-install/include/Geant4/G4Physics2DVector.hh:
 
 /root/geant4-install/include/Geant4/G4TH2ToolsManager.hh:
 
@@ -7402,35 +7951,3 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/G4Track.hh:
 
 /root/geant4-install/include/Geant4/G4TrackStatus.hh:
-
-/usr/include/c++/13/bits/regex_compiler.tcc:
-
-/root/geant4-install/include/Geant4/G4Material.hh:
-
-/root/geant4-install/include/Geant4/G4Tubs.hh:
-
-/root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc:
-
-/root/geant4-install/include/Geant4/G4VHit.hh:
-
-/usr/include/c++/13/bits/unordered_map.h:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc:
-
-/root/geant4-install/include/Geant4/G4Tubs.icc:
-
-/root/geant4-install/include/Geant4/G4VisAttributes.hh:
-
-/root/geant4-install/include/Geant4/graphics_reps_defs.hh:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/MTwistEngine.h:
-
-/usr/include/c++/13/bits/stl_algo.h:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc:

@@ -44,3 +44,41 @@ G4bool SensitiveDetector::ProcessHits(G4Step* aStep, G4TouchableHistory*) {
 
     return true;
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////
+/*
+G4String sdName = GetName();
+
+    auto* analysisManager = G4AnalysisManager::Instance();
+
+    if (sdName == "PMT_SD") {
+        // Only record optical photons
+        if (track->GetDefinition() != G4OpticalPhoton::Definition())
+            return false;
+
+        G4ThreeVector position = track->GetPosition();
+        G4double energy = track->GetTotalEnergy();
+        G4double time = track->GetLocalTime();
+
+        analysisManager->FillNtupleDColumn(0, position.x() / mm);
+        analysisManager->FillNtupleDColumn(1, position.y() / mm);
+        analysisManager->FillNtupleDColumn(2, energy / eV);
+        analysisManager->FillNtupleDColumn(3, time / ns);
+        analysisManager->AddNtupleRow();
+    }
+    else if (sdName == "Scint_SD") {
+        // Record energy deposit for charged particles
+        G4double edep = aStep->GetTotalEnergyDeposit();
+        if (edep <= 0) return false;
+
+        G4ThreeVector position = aStep->GetPreStepPoint()->GetPosition();
+        G4double time = track->GetGlobalTime();
+
+        analysisManager->FillNtupleDColumn(0, position.x() / mm);
+        analysisManager->FillNtupleDColumn(1, position.y() / mm);
+        analysisManager->FillNtupleDColumn(2, edep / MeV);
+        analysisManager->FillNtupleDColumn(3, time / ns);
+        analysisManager->AddNtupleRow();
+    }
+*/
+

@@ -5,8 +5,6 @@
 #include <TColor.h>
 #include <vector>
 #include <string>
-#include <sstream>
-#include <iomanip>
 
 TFile *f1 = new TFile("output_2.root");
 TFile *f2 = new TFile("output_3.root");
@@ -50,46 +48,36 @@ std::vector<Color_t> colors = {
     kYellow, kViolet, kTeal, kMagenta, kSpring, kOrange, kAzure
 };
 
-// Set color and line width, draw histograms
+// Set canvas
 TCanvas *c1 = new TCanvas("c1", "Overlay", 1000, 700);
+
+// Loop through and draw histograms
 for (size_t i = 0; i < hists.size(); ++i) {
+    hists[i]->Rebin(2); // Coarser binning
     hists[i]->SetLineColor(colors[i]);
     hists[i]->SetLineWidth(2);
-    if (i == 0)
+    if (i == 0) {
         hists[i]->Draw("HIST");
-    else
+        hists[i]->SetMaximum(5000); // Set Y axis max
+    } else {
         hists[i]->Draw("HIST SAME");
+    }
 }
 
+// Axis labels
 h1->SetTitle("Muon Energy with Cherenkov Photons");
 h1->GetXaxis()->SetTitle("Muon Energy [MeV]");
 h1->GetYaxis()->SetTitle("Entries");
 
-
-// Create and fill legend
+// Create and fill legend (only pressure values)
 TLegend *legend = new TLegend(0.65, 0.45, 0.88, 0.88);
-legend->SetHeader("Muon Energy vs Pressure", "C");
+legend->SetHeader("Pressure", "C");
 legend->SetBorderSize(0);
 legend->SetFillStyle(0);
 legend->SetTextSize(0.025);
 
-for (size_t i = 0; i < hists.size(); ++i) {
-    TH1D* h = hists[i];
-    const std::string& pressure = pressures[i];
-
-    int entries = static_cast<int>(h->GetEntries());
-    double mean = h->GetMean();
-    int overshoot = h->GetBinContent(h->GetNbinsX() + 1);
-    int undershoot = h->GetBinContent(0);
-
-    std::ostringstream oss;
-    oss << pressure
-        << ": N=" << entries
-        << ", ⟨E⟩=" << std::fixed << std::setprecision(2) << mean
-        << ", O=" << overshoot
-        << ", U=" << undershoot;
-
-    legend->AddEntry(h, oss.str().c_str(), "l");
+for (size_t j = 0; j < hists.size(); ++j) {
+    legend->AddEntry(hists[j], pressures[j].c_str(), "l");
 }
 
 legend->Draw();

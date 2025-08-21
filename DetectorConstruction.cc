@@ -15,7 +15,9 @@
 #include "G4LogicalSkinSurface.hh"
 #include "G4SDManager.hh"
 #include "SensitiveDetector.hh"
+
 #include "BookScintillatorArray.hh"
+#include "ConicalReflector.hh"
 
 
 #include "CLHEP/Units/PhysicalConstants.h"
@@ -123,7 +125,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
     auto* quartz = nist->FindOrBuildMaterial("G4_SILICON_DIOXIDE");
     auto* silicon = nist->FindOrBuildMaterial("G4_Si"); //for pmt(changed from quartz)
     auto* mylar = nist->FindOrBuildMaterial("G4_POLYETHYLENE");
-    auto* gas = CreatePressurizedNitrogenWithOpticalProperties(7.0 * atmosphere);
+    auto* gas = CreatePressurizedNitrogenWithOpticalProperties(4.0 * atmosphere);
         
     
     // Adding optical properties to Air (world material)
@@ -211,7 +213,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
                             tubeLength / 2,
                             0, 360 * deg);
    auto* logicGas = new G4LogicalVolume(solidGas, gas, "GasLV");
-   new G4PVPlacement(nullptr, {}, logicGas, "GasPV", logicWorld, false, 0);
+   //new G4PVPlacement(nullptr, {}, logicGas, "GasPV", logicWorld, false, 0);
+   G4VPhysicalVolume* physGas = new G4PVPlacement(nullptr, {}, logicGas, "GasPV", logicWorld, false, 0, true); //for ^^^^^^^^^^^^^^^
 
 
 //to visualize
@@ -302,14 +305,34 @@ logicGas->SetVisAttributes(gasVis);
      bookArray->Construct();
     //auto* scintMat = G4NistManager::Instance()->FindOrBuildMaterial("G4_PLASTIC_SC_VINYLTOLUENE");
     //BookScintillatorArray* bookArray = new BookScintillatorArray(logicWorld, scintMat);
-
+    
+    
+//conical reflector ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     G4double coneHeight = 70.0 * mm;
+     G4double defaultOffsetFromGasStart = 10.0 * mm; // adjustable if you want flush placement
+     G4double zConeInWorld = -tubeLength/2 + coneHeight/2; //+ defaultOffsetFromGasStart;
+     G4ThreeVector conePos(0, 0, zConeInWorld);
+     new ConicalReflector(logicGas, physGas, conePos);
+////////////////////////////////////////////////////////////////////^^^^^^^^^^^^^^^^^
     return physWorld;
 }
 
 void DetectorConstruction::ConstructSDandField() {
+
+    auto* sdManager = G4SDManager::GetSDMpointer();
+    
+    //for PMT
     auto* sd = new SensitiveDetector("PMT_SD");
     G4SDManager::GetSDMpointer()->AddNewDetector(sd);
-    SetSensitiveDetector("PMTLV", sd);
+    //sdManager->AddNewDetector(pmtSD);			//used when we are using 2 different sd volumes(pmt and scint)
+    //SetSensitiveDetector("PMTLV", pmtSD);
+    
+    
+    //SetSensitiveDetector("PMTLV", sd);
+    //for scint
+    //auto* scintSD = new SensitiveDetector("Scint_SD");
+    //sdManager->AddNewDetector(scintSD);
+    //SetSensitiveDetector(bookArray->GetScintillatorLogicalVolume(), scintSD);
 }
 
 

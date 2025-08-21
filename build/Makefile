@@ -177,6 +177,30 @@ BookScintillatorArray.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.s
 .PHONY : BookScintillatorArray.cc.s
 
+ConicalReflector.o: ConicalReflector.cc.o
+.PHONY : ConicalReflector.o
+
+# target to build an object file
+ConicalReflector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o
+.PHONY : ConicalReflector.cc.o
+
+ConicalReflector.i: ConicalReflector.cc.i
+.PHONY : ConicalReflector.i
+
+# target to preprocess a source file
+ConicalReflector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.i
+.PHONY : ConicalReflector.cc.i
+
+ConicalReflector.s: ConicalReflector.cc.s
+.PHONY : ConicalReflector.s
+
+# target to generate assembly for a file
+ConicalReflector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.s
+.PHONY : ConicalReflector.cc.s
+
 DetectorConstruction.o: DetectorConstruction.cc.o
 .PHONY : DetectorConstruction.o
 
@@ -408,6 +432,9 @@ help:
 	@echo "... BookScintillatorArray.o"
 	@echo "... BookScintillatorArray.i"
 	@echo "... BookScintillatorArray.s"
+	@echo "... ConicalReflector.o"
+	@echo "... ConicalReflector.i"
+	@echo "... ConicalReflector.s"
 	@echo "... DetectorConstruction.o"
 	@echo "... DetectorConstruction.i"
 	@echo "... DetectorConstruction.s"
