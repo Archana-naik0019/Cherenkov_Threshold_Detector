@@ -145,10 +145,175 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /root/geant4-install/include/Geant4/pwdefs.hh \
   /root/geant4-install/include/Geant4/templates.hh \
   /root/geant4-install/include/Geant4/tls.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/952/usr/local/include/Bytes.h \
+  /snap/root-framework/952/usr/local/include/Byteswap.h \
+  /snap/root-framework/952/usr/local/include/Compression.h \
+  /snap/root-framework/952/usr/local/include/DllImport.h \
+  /snap/root-framework/952/usr/local/include/ESTLType.h \
+  /snap/root-framework/952/usr/local/include/RConfigure.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RVersion.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RConcurrentHashColl.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RConfig.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RRangeCast.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RSpan.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TIOFeatures.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TRWSpinLock.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TSpinMutex.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TypeTraits.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/span.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/Rtypes.h \
+  /snap/root-framework/952/usr/local/include/RtypesCore.h \
+  /snap/root-framework/952/usr/local/include/TArray.h \
+  /snap/root-framework/952/usr/local/include/TArrayD.h \
+  /snap/root-framework/952/usr/local/include/TArrayI.h \
+  /snap/root-framework/952/usr/local/include/TAttFill.h \
+  /snap/root-framework/952/usr/local/include/TAttLine.h \
+  /snap/root-framework/952/usr/local/include/TAttMarker.h \
+  /snap/root-framework/952/usr/local/include/TBits.h \
+  /snap/root-framework/952/usr/local/include/TBranch.h \
+  /snap/root-framework/952/usr/local/include/TBranchCacheInfo.h \
+  /snap/root-framework/952/usr/local/include/TBuffer.h \
+  /snap/root-framework/952/usr/local/include/TClass.h \
+  /snap/root-framework/952/usr/local/include/TCollection.h \
+  /snap/root-framework/952/usr/local/include/TDataType.h \
+  /snap/root-framework/952/usr/local/include/TDatime.h \
+  /snap/root-framework/952/usr/local/include/TDictionary.h \
+  /snap/root-framework/952/usr/local/include/TDirectory.h \
+  /snap/root-framework/952/usr/local/include/TDirectoryFile.h \
+  /snap/root-framework/952/usr/local/include/TFile.h \
+  /snap/root-framework/952/usr/local/include/TGenericClassInfo.h \
+  /snap/root-framework/952/usr/local/include/TIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TIterator.h \
+  /snap/root-framework/952/usr/local/include/TList.h \
+  /snap/root-framework/952/usr/local/include/TMathBase.h \
+  /snap/root-framework/952/usr/local/include/TNamed.h \
+  /snap/root-framework/952/usr/local/include/TObjArray.h \
+  /snap/root-framework/952/usr/local/include/TObject.h \
+  /snap/root-framework/952/usr/local/include/TSchemaHelper.h \
+  /snap/root-framework/952/usr/local/include/TSchemaRule.h \
+  /snap/root-framework/952/usr/local/include/TSeqCollection.h \
+  /snap/root-framework/952/usr/local/include/TStorage.h \
+  /snap/root-framework/952/usr/local/include/TString.h \
+  /snap/root-framework/952/usr/local/include/TTree.h \
+  /snap/root-framework/952/usr/local/include/TUUID.h \
+  /snap/root-framework/952/usr/local/include/TUrl.h \
+  /snap/root-framework/952/usr/local/include/TVersionCheck.h \
+  /snap/root-framework/952/usr/local/include/TVirtualIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TVirtualMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualRWMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualTreePlayer.h \
+  /snap/root-framework/952/usr/local/include/snprintf.h \
+  /snap/root-framework/952/usr/local/include/strlcpy.h \
+  /snap/root-framework/952/usr/local/include/strtok.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -175,6 +340,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
@@ -183,6 +349,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
@@ -233,11 +401,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/bits/stl_multiset.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -246,10 +416,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/chrono \
@@ -259,6 +432,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/compare \
   /usr/include/c++/13/complex \
   /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/cstdarg \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -278,6 +452,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
+  /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
@@ -285,12 +460,14 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
@@ -300,7 +477,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -321,105 +497,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
+  /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -435,17 +518,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ActionInitialization.cc.o: /root/Geant4P
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.hh \
@@ -545,10 +620,112 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o: /root/Geant4
   /root/geant4-install/include/Geant4/globals.hh \
   /root/geant4-install/include/Geant4/templates.hh \
   /root/geant4-install/include/Geant4/tls.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/auto_ptr.h \
@@ -716,104 +893,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o: /root/Geant4
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -829,17 +910,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/BookScintillatorArray.cc.o: /root/Geant4
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.hh \
@@ -962,10 +1035,112 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: /root/Geant4Proje
   /root/geant4-install/include/Geant4/graphics_reps_defs.hh \
   /root/geant4-install/include/Geant4/templates.hh \
   /root/geant4-install/include/Geant4/tls.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/auto_ptr.h \
@@ -1133,104 +1308,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: /root/Geant4Proje
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -1246,17 +1325,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/ConicalReflector.cc.o: /root/Geant4Proje
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.hh \
@@ -1425,10 +1496,113 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: /root/Geant4P
   /root/geant4-install/include/Geant4/templates.hh \
   /root/geant4-install/include/Geant4/tls.hh \
   /root/geant4-install/include/Geant4/trkdefs.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/auto_ptr.h \
@@ -1575,7 +1749,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: /root/Geant4P
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -1597,104 +1770,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: /root/Geant4P
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -1710,17 +1787,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: /root/Geant4P
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.hh \
@@ -2043,10 +2112,175 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /root/geant4-install/include/Geant4/tools/typedefs \
   /root/geant4-install/include/Geant4/trkdefs.hh \
   /root/geant4-install/include/Geant4/trkgdefs.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/952/usr/local/include/Bytes.h \
+  /snap/root-framework/952/usr/local/include/Byteswap.h \
+  /snap/root-framework/952/usr/local/include/Compression.h \
+  /snap/root-framework/952/usr/local/include/DllImport.h \
+  /snap/root-framework/952/usr/local/include/ESTLType.h \
+  /snap/root-framework/952/usr/local/include/RConfigure.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RVersion.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RConcurrentHashColl.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RConfig.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RRangeCast.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RSpan.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TIOFeatures.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TRWSpinLock.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TSpinMutex.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TypeTraits.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/span.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/Rtypes.h \
+  /snap/root-framework/952/usr/local/include/RtypesCore.h \
+  /snap/root-framework/952/usr/local/include/TArray.h \
+  /snap/root-framework/952/usr/local/include/TArrayD.h \
+  /snap/root-framework/952/usr/local/include/TArrayI.h \
+  /snap/root-framework/952/usr/local/include/TAttFill.h \
+  /snap/root-framework/952/usr/local/include/TAttLine.h \
+  /snap/root-framework/952/usr/local/include/TAttMarker.h \
+  /snap/root-framework/952/usr/local/include/TBits.h \
+  /snap/root-framework/952/usr/local/include/TBranch.h \
+  /snap/root-framework/952/usr/local/include/TBranchCacheInfo.h \
+  /snap/root-framework/952/usr/local/include/TBuffer.h \
+  /snap/root-framework/952/usr/local/include/TClass.h \
+  /snap/root-framework/952/usr/local/include/TCollection.h \
+  /snap/root-framework/952/usr/local/include/TDataType.h \
+  /snap/root-framework/952/usr/local/include/TDatime.h \
+  /snap/root-framework/952/usr/local/include/TDictionary.h \
+  /snap/root-framework/952/usr/local/include/TDirectory.h \
+  /snap/root-framework/952/usr/local/include/TDirectoryFile.h \
+  /snap/root-framework/952/usr/local/include/TFile.h \
+  /snap/root-framework/952/usr/local/include/TGenericClassInfo.h \
+  /snap/root-framework/952/usr/local/include/TIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TIterator.h \
+  /snap/root-framework/952/usr/local/include/TList.h \
+  /snap/root-framework/952/usr/local/include/TMathBase.h \
+  /snap/root-framework/952/usr/local/include/TNamed.h \
+  /snap/root-framework/952/usr/local/include/TObjArray.h \
+  /snap/root-framework/952/usr/local/include/TObject.h \
+  /snap/root-framework/952/usr/local/include/TSchemaHelper.h \
+  /snap/root-framework/952/usr/local/include/TSchemaRule.h \
+  /snap/root-framework/952/usr/local/include/TSeqCollection.h \
+  /snap/root-framework/952/usr/local/include/TStorage.h \
+  /snap/root-framework/952/usr/local/include/TString.h \
+  /snap/root-framework/952/usr/local/include/TTree.h \
+  /snap/root-framework/952/usr/local/include/TUUID.h \
+  /snap/root-framework/952/usr/local/include/TUrl.h \
+  /snap/root-framework/952/usr/local/include/TVersionCheck.h \
+  /snap/root-framework/952/usr/local/include/TVirtualIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TVirtualMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualRWMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualTreePlayer.h \
+  /snap/root-framework/952/usr/local/include/snprintf.h \
+  /snap/root-framework/952/usr/local/include/strlcpy.h \
+  /snap/root-framework/952/usr/local/include/strtok.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -2073,6 +2307,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
@@ -2081,6 +2316,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
@@ -2139,6 +2376,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -2147,10 +2385,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/chrono \
@@ -2160,6 +2401,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/compare \
   /usr/include/c++/13/complex \
   /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/cstdarg \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -2179,6 +2421,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
+  /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
@@ -2186,6 +2429,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
   /usr/include/c++/13/list \
   /usr/include/c++/13/locale \
@@ -2193,6 +2437,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/memory \
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
@@ -2202,7 +2447,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -2223,106 +2467,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
   /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -2338,17 +2488,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: /root/Geant4Projects/T
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/PhysicsList.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/PhysicsList.hh \
@@ -2401,9 +2543,145 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/T
   /root/geant4-install/include/Geant4/rundefs.hh \
   /root/geant4-install/include/Geant4/templates.hh \
   /root/geant4-install/include/Geant4/tls.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/execinfo.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/fenv.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/close_range.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/signal.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/unistd.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/confname.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/environments.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fenv.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -2553,7 +2831,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
-  /usr/include/c++/13/fenv.h \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
@@ -2578,7 +2855,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -2601,136 +2877,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/T
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/execinfo.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/fenv.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/fenv.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -2745,18 +2893,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o: /root/Geant4Projects/T
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.hh \
@@ -2847,21 +2986,44 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /root/geant4-install/include/Geant4/G4BlockingList.icc \
   /root/geant4-install/include/Geant4/G4Cache.hh \
   /root/geant4-install/include/Geant4/G4CacheDetails.hh \
+  /root/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
   /root/geant4-install/include/Geant4/G4DCofThisEvent.hh \
   /root/geant4-install/include/Geant4/G4DataInterpolation.hh \
+  /root/geant4-install/include/Geant4/G4DataVector.hh \
+  /root/geant4-install/include/Geant4/G4DataVector.icc \
+  /root/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
+  /root/geant4-install/include/Geant4/G4DynamicParticle.hh \
+  /root/geant4-install/include/Geant4/G4DynamicParticle.icc \
+  /root/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+  /root/geant4-install/include/Geant4/G4Element.hh \
+  /root/geant4-install/include/Geant4/G4ElementTable.hh \
+  /root/geant4-install/include/Geant4/G4ElementVector.hh \
   /root/geant4-install/include/Geant4/G4EnvironmentUtils.hh \
   /root/geant4-install/include/Geant4/G4Event.hh \
+  /root/geant4-install/include/Geant4/G4EventManager.hh \
   /root/geant4-install/include/Geant4/G4Exception.hh \
   /root/geant4-install/include/Geant4/G4ExceptionSeverity.hh \
+  /root/geant4-install/include/Geant4/G4ForceCondition.hh \
+  /root/geant4-install/include/Geant4/G4GPILSelection.hh \
   /root/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
   /root/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
   /root/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
   /root/geant4-install/include/Geant4/G4GeomSplitter.hh \
   /root/geant4-install/include/Geant4/G4GlobalConfig.hh \
   /root/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+  /root/geant4-install/include/Geant4/G4IonisParamElm.hh \
+  /root/geant4-install/include/Geant4/G4IonisParamMat.hh \
+  /root/geant4-install/include/Geant4/G4Isotope.hh \
+  /root/geant4-install/include/Geant4/G4IsotopeVector.hh \
   /root/geant4-install/include/Geant4/G4Log.hh \
   /root/geant4-install/include/Geant4/G4LogicalVolume.hh \
   /root/geant4-install/include/Geant4/G4LogicalVolume.icc \
+  /root/geant4-install/include/Geant4/G4LorentzVector.hh \
+  /root/geant4-install/include/Geant4/G4Material.hh \
+  /root/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh \
+  /root/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh \
+  /root/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
+  /root/geant4-install/include/Geant4/G4MaterialTable.hh \
   /root/geant4-install/include/Geant4/G4MuonMinus.hh \
   /root/geant4-install/include/Geant4/G4NavigationHistory.hh \
   /root/geant4-install/include/Geant4/G4NavigationHistory.icc \
@@ -2873,11 +3035,15 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /root/geant4-install/include/Geant4/G4NavigationLogger.hh \
   /root/geant4-install/include/Geant4/G4Navigator.hh \
   /root/geant4-install/include/Geant4/G4Navigator.icc \
+  /root/geant4-install/include/Geant4/G4NoProcess.hh \
   /root/geant4-install/include/Geant4/G4NormalNavigation.hh \
   /root/geant4-install/include/Geant4/G4NormalNavigation.icc \
+  /root/geant4-install/include/Geant4/G4OrderedTable.hh \
   /root/geant4-install/include/Geant4/G4PDefManager.hh \
   /root/geant4-install/include/Geant4/G4ParameterisedNavigation.hh \
   /root/geant4-install/include/Geant4/G4ParameterisedNavigation.icc \
+  /root/geant4-install/include/Geant4/G4ParticleChange.hh \
+  /root/geant4-install/include/Geant4/G4ParticleChange.icc \
   /root/geant4-install/include/Geant4/G4ParticleDefinition.hh \
   /root/geant4-install/include/Geant4/G4ParticleDefinition.icc \
   /root/geant4-install/include/Geant4/G4ParticleGun.hh \
@@ -2886,11 +3052,20 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /root/geant4-install/include/Geant4/G4ParticleTable.icc \
   /root/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
   /root/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
+  /root/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+  /root/geant4-install/include/Geant4/G4PhysicsTable.hh \
+  /root/geant4-install/include/Geant4/G4PhysicsTable.icc \
   /root/geant4-install/include/Geant4/G4PhysicsVector.hh \
   /root/geant4-install/include/Geant4/G4PhysicsVector.icc \
   /root/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
   /root/geant4-install/include/Geant4/G4PrimaryParticle.hh \
+  /root/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
   /root/geant4-install/include/Geant4/G4PrimaryVertex.hh \
+  /root/geant4-install/include/Geant4/G4ProcessManager.hh \
+  /root/geant4-install/include/Geant4/G4ProcessManager.icc \
+  /root/geant4-install/include/Geant4/G4ProcessType.hh \
+  /root/geant4-install/include/Geant4/G4ProcessVector.hh \
+  /root/geant4-install/include/Geant4/G4ProcessVector.icc \
   /root/geant4-install/include/Geant4/G4RandomDirection.hh \
   /root/geant4-install/include/Geant4/G4RandomTools.hh \
   /root/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
@@ -2900,25 +3075,47 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /root/geant4-install/include/Geant4/G4ReplicaNavigation.hh \
   /root/geant4-install/include/Geant4/G4ReplicaNavigation.icc \
   /root/geant4-install/include/Geant4/G4RotationMatrix.hh \
+  /root/geant4-install/include/Geant4/G4RunManager.hh \
+  /root/geant4-install/include/Geant4/G4RunManagerKernel.hh \
   /root/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
   /root/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
   /root/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
   /root/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
+  /root/geant4-install/include/Geant4/G4SandiaTable.hh \
   /root/geant4-install/include/Geant4/G4SingleParticleSource.hh \
+  /root/geant4-install/include/Geant4/G4SmartTrackStack.hh \
   /root/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
   /root/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
   /root/geant4-install/include/Geant4/G4SmartVoxelNode.hh \
   /root/geant4-install/include/Geant4/G4SmartVoxelNode.icc \
   /root/geant4-install/include/Geant4/G4SmartVoxelProxy.hh \
   /root/geant4-install/include/Geant4/G4SmartVoxelProxy.icc \
+  /root/geant4-install/include/Geant4/G4StackManager.hh \
+  /root/geant4-install/include/Geant4/G4StackedTrack.hh \
+  /root/geant4-install/include/Geant4/G4Step.hh \
+  /root/geant4-install/include/Geant4/G4Step.icc \
+  /root/geant4-install/include/Geant4/G4StepPoint.hh \
+  /root/geant4-install/include/Geant4/G4StepPoint.icc \
+  /root/geant4-install/include/Geant4/G4StepStatus.hh \
+  /root/geant4-install/include/Geant4/G4SteppingControl.hh \
+  /root/geant4-install/include/Geant4/G4SteppingManager.hh \
   /root/geant4-install/include/Geant4/G4String.hh \
   /root/geant4-install/include/Geant4/G4String.icc \
+  /root/geant4-install/include/Geant4/G4SubEvent.hh \
+  /root/geant4-install/include/Geant4/G4SubEventTrackStack.hh \
   /root/geant4-install/include/Geant4/G4SystemOfUnits.hh \
   /root/geant4-install/include/Geant4/G4Threading.hh \
   /root/geant4-install/include/Geant4/G4ThreeVector.hh \
   /root/geant4-install/include/Geant4/G4TouchableHandle.hh \
   /root/geant4-install/include/Geant4/G4TouchableHistory.hh \
   /root/geant4-install/include/Geant4/G4TouchableHistory.icc \
+  /root/geant4-install/include/Geant4/G4Track.hh \
+  /root/geant4-install/include/Geant4/G4Track.icc \
+  /root/geant4-install/include/Geant4/G4TrackStack.hh \
+  /root/geant4-install/include/Geant4/G4TrackStatus.hh \
+  /root/geant4-install/include/Geant4/G4TrackVector.hh \
+  /root/geant4-install/include/Geant4/G4TrackingManager.hh \
+  /root/geant4-install/include/Geant4/G4TrackingMessenger.hh \
   /root/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
   /root/geant4-install/include/Geant4/G4Transform3D.hh \
   /root/geant4-install/include/Geant4/G4TwoVector.hh \
@@ -2928,21 +3125,28 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /root/geant4-install/include/Geant4/G4UImessenger.hh \
   /root/geant4-install/include/Geant4/G4UIparameter.hh \
   /root/geant4-install/include/Geant4/G4UserEventAction.hh \
+  /root/geant4-install/include/Geant4/G4UserStackingAction.hh \
   /root/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+  /root/geant4-install/include/Geant4/G4UserTrackingAction.hh \
   /root/geant4-install/include/Geant4/G4VDigiCollection.hh \
   /root/geant4-install/include/Geant4/G4VExternalNavigation.hh \
   /root/geant4-install/include/Geant4/G4VHitsCollection.hh \
   /root/geant4-install/include/Geant4/G4VNavigation.hh \
   /root/geant4-install/include/Geant4/G4VPVParameterisation.hh \
+  /root/geant4-install/include/Geant4/G4VParticleChange.hh \
+  /root/geant4-install/include/Geant4/G4VParticleChange.icc \
   /root/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
   /root/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
   /root/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
+  /root/geant4-install/include/Geant4/G4VProcess.hh \
   /root/geant4-install/include/Geant4/G4VSolid.hh \
   /root/geant4-install/include/Geant4/G4VSolid.icc \
+  /root/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
   /root/geant4-install/include/Geant4/G4VTouchable.hh \
   /root/geant4-install/include/Geant4/G4VTrajectory.hh \
   /root/geant4-install/include/Geant4/G4VUserEventInformation.hh \
   /root/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+  /root/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
   /root/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
   /root/geant4-install/include/Geant4/G4VoxelNavigation.hh \
   /root/geant4-install/include/Geant4/G4VoxelNavigation.icc \
@@ -2953,12 +3157,180 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /root/geant4-install/include/Geant4/geomwdefs.hh \
   /root/geant4-install/include/Geant4/globals.hh \
   /root/geant4-install/include/Geant4/pwdefs.hh \
+  /root/geant4-install/include/Geant4/rundefs.hh \
   /root/geant4-install/include/Geant4/templates.hh \
   /root/geant4-install/include/Geant4/tls.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /root/geant4-install/include/Geant4/trkdefs.hh \
+  /root/geant4-install/include/Geant4/trkgdefs.hh \
+  /snap/root-framework/952/usr/local/include/Bytes.h \
+  /snap/root-framework/952/usr/local/include/Byteswap.h \
+  /snap/root-framework/952/usr/local/include/Compression.h \
+  /snap/root-framework/952/usr/local/include/DllImport.h \
+  /snap/root-framework/952/usr/local/include/ESTLType.h \
+  /snap/root-framework/952/usr/local/include/RConfigure.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RVersion.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RConcurrentHashColl.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RConfig.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RRangeCast.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RSpan.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TIOFeatures.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TRWSpinLock.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TSpinMutex.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TypeTraits.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/span.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/Rtypes.h \
+  /snap/root-framework/952/usr/local/include/RtypesCore.h \
+  /snap/root-framework/952/usr/local/include/TArray.h \
+  /snap/root-framework/952/usr/local/include/TArrayD.h \
+  /snap/root-framework/952/usr/local/include/TArrayI.h \
+  /snap/root-framework/952/usr/local/include/TAttFill.h \
+  /snap/root-framework/952/usr/local/include/TAttLine.h \
+  /snap/root-framework/952/usr/local/include/TAttMarker.h \
+  /snap/root-framework/952/usr/local/include/TBits.h \
+  /snap/root-framework/952/usr/local/include/TBranch.h \
+  /snap/root-framework/952/usr/local/include/TBranchCacheInfo.h \
+  /snap/root-framework/952/usr/local/include/TBuffer.h \
+  /snap/root-framework/952/usr/local/include/TClass.h \
+  /snap/root-framework/952/usr/local/include/TCollection.h \
+  /snap/root-framework/952/usr/local/include/TDataType.h \
+  /snap/root-framework/952/usr/local/include/TDatime.h \
+  /snap/root-framework/952/usr/local/include/TDictionary.h \
+  /snap/root-framework/952/usr/local/include/TDirectory.h \
+  /snap/root-framework/952/usr/local/include/TDirectoryFile.h \
+  /snap/root-framework/952/usr/local/include/TFile.h \
+  /snap/root-framework/952/usr/local/include/TGenericClassInfo.h \
+  /snap/root-framework/952/usr/local/include/TIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TIterator.h \
+  /snap/root-framework/952/usr/local/include/TList.h \
+  /snap/root-framework/952/usr/local/include/TMathBase.h \
+  /snap/root-framework/952/usr/local/include/TNamed.h \
+  /snap/root-framework/952/usr/local/include/TObjArray.h \
+  /snap/root-framework/952/usr/local/include/TObject.h \
+  /snap/root-framework/952/usr/local/include/TSchemaHelper.h \
+  /snap/root-framework/952/usr/local/include/TSchemaRule.h \
+  /snap/root-framework/952/usr/local/include/TSeqCollection.h \
+  /snap/root-framework/952/usr/local/include/TStorage.h \
+  /snap/root-framework/952/usr/local/include/TString.h \
+  /snap/root-framework/952/usr/local/include/TTree.h \
+  /snap/root-framework/952/usr/local/include/TUUID.h \
+  /snap/root-framework/952/usr/local/include/TUrl.h \
+  /snap/root-framework/952/usr/local/include/TVersionCheck.h \
+  /snap/root-framework/952/usr/local/include/TVirtualIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TVirtualMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualRWMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualTreePlayer.h \
+  /snap/root-framework/952/usr/local/include/snprintf.h \
+  /snap/root-framework/952/usr/local/include/strlcpy.h \
+  /snap/root-framework/952/usr/local/include/strtok.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -2985,6 +3357,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
@@ -2993,9 +3366,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
+  /usr/include/c++/13/bits/list.tcc \
   /usr/include/c++/13/bits/locale_classes.h \
   /usr/include/c++/13/bits/locale_classes.tcc \
   /usr/include/c++/13/bits/locale_conv.h \
@@ -3038,16 +3414,19 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_list.h \
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_multiset.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_set.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -3056,10 +3435,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/chrono \
@@ -3069,6 +3451,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/compare \
   /usr/include/c++/13/complex \
   /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/cstdarg \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -3088,6 +3471,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
+  /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
@@ -3095,12 +3479,15 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/list \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
@@ -3110,7 +3497,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -3131,105 +3517,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
+  /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -3245,23 +3538,95 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o: /root/Geant
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
@@ -3362,81 +3727,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/linux/errno.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -3450,16 +3741,11 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: /root/Geant4Projects/Thr
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.cc \
+  /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.hh \
   /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.hh \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /root/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
@@ -3549,8 +3835,11 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /root/geant4-install/include/Geant4/G4BinScheme.hh \
   /root/geant4-install/include/Geant4/G4BlockingList.hh \
   /root/geant4-install/include/Geant4/G4BlockingList.icc \
+  /root/geant4-install/include/Geant4/G4Cache.hh \
+  /root/geant4-install/include/Geant4/G4CacheDetails.hh \
   /root/geant4-install/include/Geant4/G4ClassificationOfNewTrack.hh \
   /root/geant4-install/include/Geant4/G4DCofThisEvent.hh \
+  /root/geant4-install/include/Geant4/G4DataInterpolation.hh \
   /root/geant4-install/include/Geant4/G4DataVector.hh \
   /root/geant4-install/include/Geant4/G4DataVector.icc \
   /root/geant4-install/include/Geant4/G4DensityEffectCalculator.hh \
@@ -3568,6 +3857,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /root/geant4-install/include/Geant4/G4Fcn.hh \
   /root/geant4-install/include/Geant4/G4ForceCondition.hh \
   /root/geant4-install/include/Geant4/G4GPILSelection.hh \
+  /root/geant4-install/include/Geant4/G4GeneralParticleSource.hh \
+  /root/geant4-install/include/Geant4/G4GeneralParticleSourceData.hh \
+  /root/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh \
   /root/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
   /root/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
   /root/geant4-install/include/Geant4/G4GenericFileManager.hh \
@@ -3613,6 +3905,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /root/geant4-install/include/Geant4/G4ParticleChange.icc \
   /root/geant4-install/include/Geant4/G4ParticleDefinition.hh \
   /root/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+  /root/geant4-install/include/Geant4/G4ParticleGun.hh \
   /root/geant4-install/include/Geant4/G4ParticleMomentum.hh \
   /root/geant4-install/include/Geant4/G4ParticleTable.hh \
   /root/geant4-install/include/Geant4/G4ParticleTable.icc \
@@ -3642,7 +3935,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /root/geant4-install/include/Geant4/G4Run.hh \
   /root/geant4-install/include/Geant4/G4RunManager.hh \
   /root/geant4-install/include/Geant4/G4RunManagerKernel.hh \
+  /root/geant4-install/include/Geant4/G4SPSAngDistribution.hh \
+  /root/geant4-install/include/Geant4/G4SPSEneDistribution.hh \
+  /root/geant4-install/include/Geant4/G4SPSPosDistribution.hh \
+  /root/geant4-install/include/Geant4/G4SPSRandomGenerator.hh \
   /root/geant4-install/include/Geant4/G4SandiaTable.hh \
+  /root/geant4-install/include/Geant4/G4SingleParticleSource.hh \
   /root/geant4-install/include/Geant4/G4SmartTrackStack.hh \
   /root/geant4-install/include/Geant4/G4SmartVoxelHeader.hh \
   /root/geant4-install/include/Geant4/G4SmartVoxelHeader.icc \
@@ -3714,6 +4012,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /root/geant4-install/include/Geant4/G4VParticleChange.icc \
   /root/geant4-install/include/Geant4/G4VPhysicalVolume.hh \
   /root/geant4-install/include/Geant4/G4VPhysicalVolume.icc \
+  /root/geant4-install/include/Geant4/G4VPrimaryGenerator.hh \
   /root/geant4-install/include/Geant4/G4VProcess.hh \
   /root/geant4-install/include/Geant4/G4VSolid.hh \
   /root/geant4-install/include/Geant4/G4VSolid.icc \
@@ -3723,6 +4022,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /root/geant4-install/include/Geant4/G4VTouchable.hh \
   /root/geant4-install/include/Geant4/G4VTrajectory.hh \
   /root/geant4-install/include/Geant4/G4VUserEventInformation.hh \
+  /root/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /root/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
   /root/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh \
   /root/geant4-install/include/Geant4/G4VoxelNavigation.hh \
@@ -3763,10 +4063,175 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /root/geant4-install/include/Geant4/tools/typedefs \
   /root/geant4-install/include/Geant4/trkdefs.hh \
   /root/geant4-install/include/Geant4/trkgdefs.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/952/usr/local/include/Bytes.h \
+  /snap/root-framework/952/usr/local/include/Byteswap.h \
+  /snap/root-framework/952/usr/local/include/Compression.h \
+  /snap/root-framework/952/usr/local/include/DllImport.h \
+  /snap/root-framework/952/usr/local/include/ESTLType.h \
+  /snap/root-framework/952/usr/local/include/RConfigure.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RVersion.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/ROOT/RConcurrentHashColl.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RConfig.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RRangeCast.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/RSpan.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TIOFeatures.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TRWSpinLock.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TSpinMutex.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/TypeTraits.hxx \
+  /snap/root-framework/952/usr/local/include/ROOT/span.hxx \
+  /snap/root-framework/952/usr/local/include/RVersion.h \
+  /snap/root-framework/952/usr/local/include/Rtypes.h \
+  /snap/root-framework/952/usr/local/include/RtypesCore.h \
+  /snap/root-framework/952/usr/local/include/TArray.h \
+  /snap/root-framework/952/usr/local/include/TArrayD.h \
+  /snap/root-framework/952/usr/local/include/TArrayI.h \
+  /snap/root-framework/952/usr/local/include/TAttFill.h \
+  /snap/root-framework/952/usr/local/include/TAttLine.h \
+  /snap/root-framework/952/usr/local/include/TAttMarker.h \
+  /snap/root-framework/952/usr/local/include/TBits.h \
+  /snap/root-framework/952/usr/local/include/TBranch.h \
+  /snap/root-framework/952/usr/local/include/TBranchCacheInfo.h \
+  /snap/root-framework/952/usr/local/include/TBuffer.h \
+  /snap/root-framework/952/usr/local/include/TClass.h \
+  /snap/root-framework/952/usr/local/include/TCollection.h \
+  /snap/root-framework/952/usr/local/include/TDataType.h \
+  /snap/root-framework/952/usr/local/include/TDatime.h \
+  /snap/root-framework/952/usr/local/include/TDictionary.h \
+  /snap/root-framework/952/usr/local/include/TDirectory.h \
+  /snap/root-framework/952/usr/local/include/TDirectoryFile.h \
+  /snap/root-framework/952/usr/local/include/TFile.h \
+  /snap/root-framework/952/usr/local/include/TGenericClassInfo.h \
+  /snap/root-framework/952/usr/local/include/TIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TIterator.h \
+  /snap/root-framework/952/usr/local/include/TList.h \
+  /snap/root-framework/952/usr/local/include/TMathBase.h \
+  /snap/root-framework/952/usr/local/include/TNamed.h \
+  /snap/root-framework/952/usr/local/include/TObjArray.h \
+  /snap/root-framework/952/usr/local/include/TObject.h \
+  /snap/root-framework/952/usr/local/include/TSchemaHelper.h \
+  /snap/root-framework/952/usr/local/include/TSchemaRule.h \
+  /snap/root-framework/952/usr/local/include/TSeqCollection.h \
+  /snap/root-framework/952/usr/local/include/TStorage.h \
+  /snap/root-framework/952/usr/local/include/TString.h \
+  /snap/root-framework/952/usr/local/include/TTree.h \
+  /snap/root-framework/952/usr/local/include/TUUID.h \
+  /snap/root-framework/952/usr/local/include/TUrl.h \
+  /snap/root-framework/952/usr/local/include/TVersionCheck.h \
+  /snap/root-framework/952/usr/local/include/TVirtualIsAProxy.h \
+  /snap/root-framework/952/usr/local/include/TVirtualMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualRWMutex.h \
+  /snap/root-framework/952/usr/local/include/TVirtualTreePlayer.h \
+  /snap/root-framework/952/usr/local/include/snprintf.h \
+  /snap/root-framework/952/usr/local/include/strlcpy.h \
+  /snap/root-framework/952/usr/local/include/strtok.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -3793,6 +4258,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
@@ -3801,6 +4267,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
@@ -3859,6 +4327,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/stream_iterator.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
@@ -3867,10 +4336,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
+  /usr/include/c++/13/bits/unordered_map.h \
+  /usr/include/c++/13/bits/unordered_set.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/chrono \
@@ -3880,6 +4352,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/compare \
   /usr/include/c++/13/complex \
   /usr/include/c++/13/condition_variable \
+  /usr/include/c++/13/cstdarg \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -3899,6 +4372,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/fstream \
+  /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
@@ -3906,6 +4380,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/iterator \
   /usr/include/c++/13/limits \
   /usr/include/c++/13/list \
   /usr/include/c++/13/locale \
@@ -3913,6 +4388,7 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/memory \
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
+  /usr/include/c++/13/optional \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
@@ -3922,7 +4398,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -3943,106 +4418,12 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/unordered_set \
   /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -4058,17 +4439,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o: /root/Geant4Projects/Thr
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.hh \
@@ -4381,10 +4754,113 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: /root/Geant4Proj
   /root/geant4-install/include/Geant4/tools/typedefs \
   /root/geant4-install/include/Geant4/trkdefs.hh \
   /root/geant4-install/include/Geant4/trkgdefs.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -4540,7 +5016,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: /root/Geant4Proj
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -4563,104 +5038,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: /root/Geant4Proj
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -4676,17 +5055,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o: /root/Geant4Proj
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.hh \
@@ -5010,10 +5381,113 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /root/geant4-install/include/Geant4/tools/typedefs \
   /root/geant4-install/include/Geant4/trkdefs.hh \
   /root/geant4-install/include/Geant4/trkgdefs.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -5169,7 +5643,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /usr/include/c++/13/set \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -5192,104 +5665,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -5305,17 +5682,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/SteppingAction.cc.o: /root/Geant4Project
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshold_Cherenkov_copy/main.cc \
   /root/Geant4Projects/Threshold_Cherenkov_copy/ActionInitialization.hh \
@@ -5731,10 +6100,146 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
   /root/geant4-install/include/Geant4/trkdefs.hh \
   /root/geant4-install/include/Geant4/trkgdefs.hh \
   /root/geant4-install/include/Geant4/windefs.hh \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
+  /snap/root-framework/current/usr/include/alloca.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+  /snap/root-framework/current/usr/include/asm-generic/errno.h \
+  /snap/root-framework/current/usr/include/assert.h \
+  /snap/root-framework/current/usr/include/ctype.h \
+  /snap/root-framework/current/usr/include/endian.h \
+  /snap/root-framework/current/usr/include/errno.h \
+  /snap/root-framework/current/usr/include/execinfo.h \
+  /snap/root-framework/current/usr/include/features-time64.h \
+  /snap/root-framework/current/usr/include/features.h \
+  /snap/root-framework/current/usr/include/fenv.h \
+  /snap/root-framework/current/usr/include/libintl.h \
+  /snap/root-framework/current/usr/include/limits.h \
+  /snap/root-framework/current/usr/include/linux/close_range.h \
+  /snap/root-framework/current/usr/include/linux/errno.h \
+  /snap/root-framework/current/usr/include/linux/limits.h \
+  /snap/root-framework/current/usr/include/locale.h \
+  /snap/root-framework/current/usr/include/pthread.h \
+  /snap/root-framework/current/usr/include/sched.h \
+  /snap/root-framework/current/usr/include/signal.h \
+  /snap/root-framework/current/usr/include/stdc-predef.h \
+  /snap/root-framework/current/usr/include/stdint.h \
+  /snap/root-framework/current/usr/include/stdio.h \
+  /snap/root-framework/current/usr/include/stdlib.h \
+  /snap/root-framework/current/usr/include/string.h \
+  /snap/root-framework/current/usr/include/strings.h \
+  /snap/root-framework/current/usr/include/time.h \
+  /snap/root-framework/current/usr/include/unistd.h \
+  /snap/root-framework/current/usr/include/wchar.h \
+  /snap/root-framework/current/usr/include/wctype.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/confname.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/environments.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fenv.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
+  /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -5891,7 +6396,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
-  /usr/include/c++/13/fenv.h \
   /usr/include/c++/13/fstream \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/future \
@@ -5920,7 +6424,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
@@ -5944,136 +6447,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
   /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/errno.h \
-  /usr/include/execinfo.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/fenv.h \
-  /usr/include/libintl.h \
-  /usr/include/limits.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/linux/errno.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/signal.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
   /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/unistd.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/fenv.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
@@ -6090,18 +6465,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 
 /usr/include/c++/13/bits/stl_queue.h:
@@ -6112,9 +6478,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/PTL/detail/CxxBackports.hh:
 
-/root/geant4-install/include/Geant4/PTL/ThreadPool.hh:
+/root/geant4-install/include/Geant4/PTL/VTask.hh:
 
-/root/geant4-install/include/Geant4/PTL/TaskGroup.hh:
+/root/geant4-install/include/Geant4/PTL/Types.hh:
 
 /root/geant4-install/include/Geant4/PTL/Macros.hh:
 
@@ -6132,15 +6498,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4ViewParameters.hh:
 
-/root/geant4-install/include/Geant4/G4VVisManager.hh:
-
 /root/geant4-install/include/Geant4/G4VViewer.icc:
 
 /root/geant4-install/include/Geant4/G4VSceneHandler.icc:
-
-/root/geant4-install/include/Geant4/G4VModel.icc:
-
-/root/geant4-install/include/Geant4/G4VModel.hh:
 
 /root/geant4-install/include/Geant4/G4VMarker.hh:
 
@@ -6184,8 +6544,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4TaskManager.hh:
 
-/root/geant4-install/include/Geant4/G4THitsCollection.hh:
-
 /root/geant4-install/include/Geant4/G4TBBTaskGroup.hh:
 
 /root/geant4-install/include/Geant4/G4SceneList.hh:
@@ -6202,23 +6560,23 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4PolyhedraHistorical.hh:
 
-/root/geant4-install/include/Geant4/G4Polyhedra.icc:
+/root/geant4-install/include/Geant4/G4Polyhedra.hh:
 
-/root/geant4-install/include/Geant4/G4Polycone.hh:
+/root/geant4-install/include/Geant4/G4PolyconeSide.hh:
+
+/root/geant4-install/include/Geant4/G4Plane3D.hh:
 
 /root/geant4-install/include/Geant4/G4VCSGfaceted.hh:
 
 /root/geant4-install/include/Geant4/G4PhysicalVolumeModel.hh:
 
-/root/geant4-install/include/Geant4/G4Para.icc:
-
 /root/geant4-install/include/Geant4/G4Para.hh:
 
 /root/geant4-install/include/Geant4/G4OpenGLStoredX.hh:
 
-/root/geant4-install/include/Geant4/G4NullModel.hh:
+/root/geant4-install/include/Geant4/G4OpenGLQt.hh:
 
-/root/geant4-install/include/Geant4/G4ModelingParameters.icc:
+/root/geant4-install/include/Geant4/G4NullModel.hh:
 
 /root/geant4-install/include/Geant4/G4ModelingParameters.hh:
 
@@ -6235,8 +6593,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/G4Ellipsoid.icc:
 
 /root/geant4-install/include/Geant4/G4Ellipsoid.hh:
-
-/root/geant4-install/include/Geant4/G4DAWNFILE.hh:
 
 /root/geant4-install/include/Geant4/G4AttValue.hh:
 
@@ -6260,75 +6616,17 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.cc:
 
-/root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.hh:
-
-/root/geant4-install/include/Geant4/G4RandomTools.hh:
-
 /root/geant4-install/include/Geant4/G4MuonMinus.hh:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h:
 
-/root/geant4-install/include/Geant4/G4OpenGLImmediateQt.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/unistd.h:
-
-/usr/include/linux/close_range.h:
-
-/root/geant4-install/include/Geant4/PTL/Types.hh:
-
-/usr/include/fenv.h:
-
-/root/geant4-install/include/Geant4/G4Plane3D.hh:
-
-/usr/include/execinfo.h:
-
-/usr/include/c++/13/unordered_map:
-
-/usr/include/c++/13/functional:
+/usr/include/c++/13/deque:
 
 /usr/include/c++/13/cxxabi.h:
-
-/root/geant4-install/include/Geant4/G4VModelFactory.hh:
-
-/usr/include/c++/13/csignal:
 
 /usr/include/c++/13/bits/stl_deque.h:
 
 /usr/include/c++/13/bits/regex_scanner.tcc:
-
-/usr/include/c++/13/bits/regex_scanner.h:
 
 /usr/include/c++/13/bits/regex_executor.h:
 
@@ -6342,17 +6640,51 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/bits/regex.h:
 
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/c++/13/bits/enable_special_members.h:
-
 /usr/include/c++/13/bits/deque.tcc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/root/geant4-install/include/Geant4/G4Para.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/root/geant4-install/include/Geant4/G4OpenGLImmediateQt.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fenv.h:
+
+/snap/root-framework/current/usr/include/unistd.h:
+
+/snap/root-framework/current/usr/include/signal.h:
+
+/snap/root-framework/current/usr/include/fenv.h:
 
 /root/geant4-install/include/Geant4/G4VUserPhysicsList.hh:
 
 /root/geant4-install/include/Geant4/G4VModularPhysicsList.hh:
 
-/root/geant4-install/include/Geant4/G4ProductionCuts.hh:
+/root/geant4-install/include/Geant4/G4ProductionCutsTable.hh:
 
 /root/geant4-install/include/Geant4/G4TrajectoryFilterFactories.hh:
 
@@ -6364,15 +6696,11 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh:
 
+/root/geant4-install/include/Geant4/G4EmStandardPhysics.hh:
+
 /root/Geant4Projects/Threshold_Cherenkov_copy/PhysicsList.hh:
 
-/usr/include/c++/13/utility:
-
 /usr/include/c++/13/list:
-
-/usr/include/c++/13/bits/stl_relops.h:
-
-/root/geant4-install/include/Geant4/tools/ntuple_booking:
 
 /root/geant4-install/include/Geant4/tools/histo/profile_data:
 
@@ -6386,23 +6714,17 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/tools/histo/h3:
 
-/root/geant4-install/include/Geant4/G4Backtrace.hh:
-
-/root/geant4-install/include/Geant4/tools/histo/h2d:
-
 /root/geant4-install/include/Geant4/tools/histo/h1d:
+
+/root/geant4-install/include/Geant4/tools/histo/h1:
 
 /root/geant4-install/include/Geant4/tools/histo/base_histo:
 
 /root/geant4-install/include/Geant4/tools/histo/b3:
 
-/root/geant4-install/include/Geant4/tools/histo/b2:
-
 /root/geant4-install/include/Geant4/tools/histo/axis:
 
 /root/geant4-install/include/Geant4/tools/forit:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
 /root/geant4-install/include/Geant4/tools/cid:
 
@@ -6421,8 +6743,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/G4VSteppingVerbose.hh:
 
 /root/geant4-install/include/Geant4/G4VParticleChange.hh:
-
-/root/geant4-install/include/Geant4/G4VNtupleManager.hh:
 
 /root/geant4-install/include/Geant4/G4VFileManager.hh:
 
@@ -6444,13 +6764,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4Tokenizer.hh:
 
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
 /root/geant4-install/include/Geant4/G4TP2ToolsManager.hh:
 
 /root/geant4-install/include/Geant4/G4THnToolsManager.icc:
 
 /root/geant4-install/include/Geant4/G4THnToolsManager.hh:
-
-/root/geant4-install/include/Geant4/G4THnMessenger.icc:
 
 /root/geant4-install/include/Geant4/G4THnMessenger.hh:
 
@@ -6470,10 +6790,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4SubEvent.hh:
 
-/root/geant4-install/include/Geant4/G4SteppingManager.hh:
-
-/root/geant4-install/include/Geant4/G4StackManager.hh:
-
 /root/geant4-install/include/Geant4/G4SmartTrackStack.hh:
 
 /root/geant4-install/include/Geant4/G4ProcessType.hh:
@@ -6481,8 +6797,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 /root/geant4-install/include/Geant4/G4ProcessManager.hh:
 
 /root/geant4-install/include/Geant4/G4PrimaryTransformer.hh:
-
-/root/geant4-install/include/Geant4/G4PhysicsTable.icc:
 
 /root/geant4-install/include/Geant4/G4ParticleTableIterator.hh:
 
@@ -6500,8 +6814,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4HnManager.hh:
 
-/root/geant4-install/include/Geant4/G4HnInformation.hh:
-
 /root/geant4-install/include/Geant4/G4GenericFileManager.hh:
 
 /root/geant4-install/include/Geant4/G4GenericAnalysisManager.icc:
@@ -6518,9 +6830,13 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4BinScheme.hh:
 
+/root/geant4-install/include/Geant4/G4BaseFileManager.hh:
+
 /root/geant4-install/include/Geant4/G4VTrajectoryModel.hh:
 
 /root/geant4-install/include/Geant4/G4BaseAnalysisManager.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /root/geant4-install/include/Geant4/G4AnalysisVerbose.hh:
 
@@ -6546,15 +6862,11 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandPoissonQ.h:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.icc:
-
 /root/geant4-install/include/Geant4/PTL/TaskManager.hh:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandLandau.icc:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandLandau.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandGeneral.icc:
 
@@ -6572,10 +6884,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandFlat.icc:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.h:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h:
-
 /root/geant4-install/include/Geant4/CLHEP/Random/RandExponential.icc:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandExponential.h:
@@ -6584,9 +6892,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/CLHEP/Random/RandChiSquare.h:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBit.h:
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc:
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBit.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/MixMaxRng.h:
 
@@ -6596,359 +6904,473 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/CLHEP/Random/DualRand.h:
 
-/root/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
+/root/geant4-install/include/Geant4/G4VSensitiveDetector.hh:
 
-/root/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh:
-
-/root/geant4-install/include/Geant4/G4Sphere.icc:
-
-/root/geant4-install/include/Geant4/tools/histo/p2:
-
-/usr/include/c++/13/complex:
-
-/root/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh:
-
-/usr/include/c++/13/compare:
-
-/root/geant4-install/include/Geant4/tools/typedefs:
-
-/usr/include/c++/13/chrono:
-
-/usr/include/c++/13/bits/vector.tcc:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/root/geant4-install/include/Geant4/G4NavigationHistory.icc:
-
-/usr/include/c++/13/bits/regex_executor.tcc:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc:
-
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/usr/include/c++/13/bits/stl_set.h:
-
-/root/geant4-install/include/Geant4/G4VUPLSplitter.hh:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/c++/13/bits/regex_automaton.tcc:
-
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
+/root/geant4-install/include/Geant4/G4VReadOutGeometry.hh:
 
 /root/geant4-install/include/Geant4/G4TrackVector.hh:
 
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
+/root/geant4-install/include/Geant4/G4TrackStatus.hh:
 
-/usr/include/c++/13/bits/stl_algobase.h:
+/root/geant4-install/include/Geant4/G4Track.icc:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/confname.h:
 
-/usr/include/c++/13/bits/stl_algo.h:
+/root/geant4-install/include/Geant4/G4SteppingControl.hh:
 
-/root/geant4-install/include/Geant4/G4UserTrackingAction.hh:
+/root/geant4-install/include/Geant4/G4StepStatus.hh:
 
-/root/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc:
+/root/geant4-install/include/Geant4/G4StepPoint.icc:
 
-/usr/include/c++/13/bits/std_thread.h:
+/root/geant4-install/include/Geant4/G4StepPoint.hh:
 
-/root/geant4-install/include/Geant4/G4SPSRandomGenerator.hh:
+/root/geant4-install/include/Geant4/G4Step.icc:
 
-/root/geant4-install/include/Geant4/G4VCSGface.hh:
+/root/geant4-install/include/Geant4/G4SDStructure.hh:
 
-/usr/include/c++/13/bits/stl_stack.h:
+/root/geant4-install/include/Geant4/G4TH2ToolsManager.hh:
 
-/usr/include/c++/13/initializer_list:
+/root/geant4-install/include/Geant4/G4SDManager.hh:
 
-/usr/include/c++/13/tr1/bessel_function.tcc:
+/root/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh:
 
-/usr/include/c++/13/bits/specfun.h:
+/root/geant4-install/include/Geant4/G4ASCIITree.hh:
 
-/usr/include/c++/13/bits/streambuf.tcc:
+/root/geant4-install/include/Geant4/G4RunManagerKernel.hh:
 
-/usr/include/c++/13/bits/shared_ptr.h:
+/root/geant4-install/include/Geant4/G4LorentzVector.hh:
 
-/root/geant4-install/include/Geant4/G4VPhysicalVolume.icc:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/environments.h:
 
-/root/geant4-install/include/Geant4/G4String.hh:
+/root/geant4-install/include/Geant4/G4LogicalSkinSurface.hh:
 
-/usr/include/c++/13/bits/refwrap.h:
+/root/geant4-install/include/Geant4/G4RayTracer.hh:
 
-/usr/include/c++/13/bits/range_access.h:
+/root/geant4-install/include/Geant4/G4ElectronOccupancy.hh:
 
-/usr/include/c++/13/bits/uses_allocator.h:
+/root/geant4-install/include/Geant4/G4CollectionNameVector.hh:
 
-/usr/include/c++/13/bits/move.h:
+/root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.hh:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.cc:
+
+/root/geant4-install/include/Geant4/G4VisAttributes.hh:
+
+/root/geant4-install/include/Geant4/G4SubtractionSolid.hh:
+
+/root/geant4-install/include/Geant4/G4Physics2DVector.hh:
+
+/root/geant4-install/include/Geant4/G4OpticalSurface.hh:
+
+/root/geant4-install/include/Geant4/G4LogicalSurface.icc:
+
+/root/geant4-install/include/Geant4/G4LogicalSurface.hh:
+
+/root/geant4-install/include/Geant4/G4LogicalBorderSurface.hh:
+
+/root/geant4-install/include/Geant4/G4DisplacedSolid.hh:
+
+/root/geant4-install/include/Geant4/G4Cons.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/root/geant4-install/include/Geant4/G4VProcess.hh:
+
+/root/geant4-install/include/Geant4/G4Cons.hh:
+
+/root/geant4-install/include/Geant4/G4Color.hh:
+
+/root/geant4-install/include/Geant4/G4BooleanSolid.icc:
 
 /root/geant4-install/include/Geant4/G4THitsMap.hh:
 
 /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.hh:
 
-/root/geant4-install/include/Geant4/G4StepPoint.icc:
+/root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.cc:
 
-/usr/include/c++/13/bits/locale_facets_nonio.tcc:
+/root/geant4-install/include/Geant4/HepPolyhedron.h:
 
-/usr/include/c++/13/bits/requires_hosted.h:
+/root/geant4-install/include/Geant4/G4BooleanSolid.hh:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/root/geant4-install/include/Geant4/G4TwoVector.hh:
 
-/usr/include/c++/13/bits/locale_classes.tcc:
+/root/geant4-install/include/Geant4/G4SandiaTable.hh:
 
-/root/geant4-install/include/Geant4/G4TrajectoryContainer.hh:
+/root/geant4-install/include/Geant4/G4PhysicsTable.hh:
 
-/usr/include/c++/13/bits/ios_base.h:
+/root/geant4-install/include/Geant4/G4Pow.hh:
 
-/usr/include/c++/13/bits/hash_bytes.h:
+/root/geant4-install/include/Geant4/G4PVPlacement.hh:
 
-/root/Geant4Projects/Threshold_Cherenkov_copy/main.cc:
-
-/usr/include/c++/13/bits/fstream.tcc:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandGauss.icc:
-
-/usr/include/c++/13/bits/stl_multimap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/13/bits/istream.tcc:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/c++/13/bits/chrono.h:
-
-/root/geant4-install/include/Geant4/G4AffineTransform.icc:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
+/root/geant4-install/include/Geant4/G4OrderedTable.hh:
 
 /root/geant4-install/include/Geant4/G4Normal3D.hh:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/root/geant4-install/include/Geant4/G4MaterialTable.hh:
 
-/usr/include/c++/13/bits/basic_string.h:
+/root/geant4-install/include/Geant4/G4MaterialPropertyVector.hh:
 
-/usr/include/c++/13/bits/basic_ios.h:
+/root/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh:
 
-/usr/include/c++/13/bits/stl_heap.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/c++/13/bits/atomic_futex.h:
+/root/geant4-install/include/Geant4/graphics_reps_defs.hh:
 
-/root/geant4-install/include/Geant4/G4VisExtent.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/root/geant4-install/include/Geant4/G4EventManager.hh:
+/root/geant4-install/include/Geant4/PTL/TaskGroup.hh:
 
-/usr/include/c++/13/bits/allocated_ptr.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/root/geant4-install/include/Geant4/G4NormalNavigation.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/c++/13/bit:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/c++/13/bits/unique_ptr.h:
+/usr/include/c++/13/bits/stream_iterator.h:
 
-/usr/include/c++/13/atomic:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+/root/geant4-install/include/Geant4/PTL/ThreadPool.hh:
 
-/usr/include/x86_64-linux-gnu/bits/fenv.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/usr/include/c++/13/array:
+/root/geant4-install/include/Geant4/G4Allocator.hh:
 
-/usr/include/c++/13/algorithm:
+/usr/include/c++/13/functional:
 
-/root/geant4-install/include/Geant4/G4VTrajectory.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/root/geant4-install/include/Geant4/G4SPSEneDistribution.hh:
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
 
-/root/geant4-install/include/Geant4/G4OpenGLStoredQt.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/assert.h:
+/snap/root-framework/952/usr/local/include/ROOT/RRangeCast.hxx:
 
-/root/geant4-install/include/Geant4/G4BaseFileManager.hh:
+/snap/root-framework/current/usr/include/libintl.h:
 
-/usr/include/asm-generic/errno-base.h:
+/root/geant4-install/include/Geant4/G4THitsCollection.hh:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/snap/root-framework/current/usr/include/assert.h:
 
-/root/geant4-install/include/Geant4/tools/cids:
+/root/geant4-install/include/Geant4/G4VAnalysisManager.icc:
 
-/root/geant4-install/include/Geant4/tls.hh:
+/usr/include/c++/13/tr1/legendre_function.tcc:
+
+/root/geant4-install/include/Geant4/G4StackManager.hh:
+
+/snap/root-framework/952/usr/local/include/TVirtualTreePlayer.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/root/geant4-install/include/Geant4/tools/ntuple_booking:
+
+/snap/root-framework/current/usr/include/stdio.h:
+
+/root/geant4-install/include/Geant4/tools/histo/b2:
+
+/snap/root-framework/952/usr/local/include/TVirtualRWMutex.h:
+
+/snap/root-framework/952/usr/local/include/TVirtualIsAProxy.h:
+
+/snap/root-framework/952/usr/local/include/TTree.h:
+
+/snap/root-framework/current/usr/include/ctype.h:
+
+/usr/include/c++/13/cstdlib:
+
+/snap/root-framework/952/usr/local/include/TSeqCollection.h:
+
+/root/geant4-install/include/Geant4/G4RegularNavigation.hh:
+
+/snap/root-framework/952/usr/local/include/TMathBase.h:
+
+/root/geant4-install/include/Geant4/G4LogicalBorderSurface.icc:
+
+/root/geant4-install/include/Geant4/G4PrimaryVertex.hh:
+
+/root/geant4-install/include/Geant4/G4DAWNFILE.hh:
+
+/snap/root-framework/952/usr/local/include/TList.h:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandLandau.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/snap/root-framework/current/usr/include/limits.h:
+
+/root/geant4-install/include/Geant4/G4PhysicalConstants.hh:
+
+/snap/root-framework/952/usr/local/include/TGenericClassInfo.h:
+
+/root/geant4-install/include/Geant4/G4UserRunAction.hh:
+
+/root/geant4-install/include/Geant4/PTL/AutoLock.hh:
+
+/root/geant4-install/include/Geant4/G4Vector3D.hh:
+
+/root/geant4-install/include/Geant4/G4ParticleChange.hh:
+
+/root/geant4-install/include/Geant4/G4GeomTypes.hh:
+
+/snap/root-framework/952/usr/local/include/TDictionary.h:
+
+/root/geant4-install/include/Geant4/G4Backtrace.hh:
+
+/root/geant4-install/include/Geant4/tools/histo/h2d:
+
+/snap/root-framework/current/usr/include/stdlib.h:
+
+/snap/root-framework/952/usr/local/include/TAttFill.h:
+
+/root/geant4-install/include/Geant4/G4PrimaryParticle.hh:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.icc:
+
+/snap/root-framework/952/usr/local/include/TArrayI.h:
+
+/snap/root-framework/952/usr/local/include/TArrayD.h:
+
+/snap/root-framework/952/usr/local/include/TArray.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/snap/root-framework/952/usr/local/include/ROOT/span.hxx:
+
+/snap/root-framework/952/usr/local/include/ROOT/TRWSpinLock.hxx:
+
+/snap/root-framework/952/usr/local/include/ROOT/RConfig.hxx:
+
+/snap/root-framework/952/usr/local/include/TBranch.h:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/root/geant4-install/include/Geant4/G4HnInformation.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/root/geant4-install/include/Geant4/G4PhysicsVector.hh:
+
+/usr/include/c++/13/bits/erase_if.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.h:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.hh:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/snap/root-framework/952/usr/local/include/RConfigure.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
+
+/root/geant4-install/include/Geant4/G4SteppingManager.hh:
+
+/snap/root-framework/952/usr/local/include/ESTLType.h:
+
+/snap/root-framework/952/usr/local/include/Compression.h:
+
+/root/geant4-install/include/Geant4/G4Cache.hh:
+
+/root/geant4-install/include/Geant4/G4VSDFilter.hh:
+
+/root/geant4-install/include/Geant4/G4UImessenger.hh:
+
+/usr/include/c++/13/ostream:
+
+/usr/include/c++/13/bits/stl_relops.h:
+
+/snap/root-framework/952/usr/local/include/Byteswap.h:
+
+/root/geant4-install/include/Geant4/G4THnMessenger.icc:
+
+/snap/root-framework/952/usr/local/include/TIterator.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /root/geant4-install/include/Geant4/geomwdefs.hh:
 
 /root/geant4-install/include/Geant4/G4UIparameter.hh:
 
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+/root/geant4-install/include/Geant4/G4Sphere.hh:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc:
+/root/geant4-install/include/Geant4/G4UnionSolid.hh:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/snap/root-framework/952/usr/local/include/TDataType.h:
 
 /root/geant4-install/include/Geant4/evtdefs.hh:
 
-/root/geant4-install/include/Geant4/G4VoxelNavigation.icc:
+/snap/root-framework/952/usr/local/include/RVersion.h:
+
+/usr/include/c++/13/bits/regex_scanner.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/root/geant4-install/include/Geant4/G4PhysicsListOrderingParameter.hh:
+
+/usr/include/c++/13/compare:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /root/geant4-install/include/Geant4/G4VisExecutive.hh:
-
-/usr/include/stdio.h:
 
 /root/geant4-install/include/Geant4/G4VoxelNavigation.hh:
 
 /root/geant4-install/include/Geant4/G4Types.hh:
 
-/root/geant4-install/include/Geant4/G4NavigationLevel.hh:
+/root/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc:
 
-/usr/include/c++/13/bits/locale_facets_nonio.h:
+/root/geant4-install/include/Geant4/G4Tubs.icc:
+
+/usr/include/c++/13/bits/unordered_map.h:
 
 /root/geant4-install/include/Geant4/G4NoProcess.hh:
 
 /root/geant4-install/include/Geant4/G4VVolumeMaterialScanner.hh:
 
-/usr/include/c++/13/bits/utility.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/c++/13/bits/stl_function.h:
+/root/geant4-install/include/Geant4/G4VTrajectory.hh:
 
-/root/geant4-install/include/Geant4/G4ExceptionSeverity.hh:
+/root/geant4-install/include/Geant4/G4SPSEneDistribution.hh:
+
+/usr/include/c++/13/algorithm:
+
+/root/geant4-install/include/Geant4/G4VModel.hh:
+
+/snap/root-framework/current/usr/include/wctype.h:
 
 /root/geant4-install/include/Geant4/G4LogicalVolume.icc:
 
-/usr/include/c++/13/bits/align.h:
-
-/root/geant4-install/include/Geant4/G4SPSPosDistribution.hh:
-
 /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.cc:
+
+/snap/root-framework/952/usr/local/include/TString.h:
+
+/snap/root-framework/952/usr/local/include/TBuffer.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/snap/root-framework/current/usr/include/stdc-predef.h:
+
+/snap/root-framework/952/usr/local/include/TSchemaHelper.h:
+
+/root/geant4-install/include/Geant4/G4Event.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /root/geant4-install/include/Geant4/PTL/VUserTaskQueue.hh:
 
 /root/geant4-install/include/Geant4/G4LogicalVolume.hh:
 
-/root/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh:
-
-/usr/include/c++/13/cmath:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/root/geant4-install/include/Geant4/G4Event.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.cc:
 
 /root/geant4-install/include/Geant4/G4PhysicsFreeVector.hh:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+/usr/include/c++/13/bits/unordered_set.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h:
+
+/root/geant4-install/include/Geant4/G4DataVector.hh:
+
+/root/geant4-install/include/Geant4/G4HCofThisEvent.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/13/array:
+
+/snap/root-framework/952/usr/local/include/TClass.h:
+
+/snap/root-framework/952/usr/local/include/TDirectory.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /root/geant4-install/include/Geant4/tools/histo/axes:
 
 /root/geant4-install/include/Geant4/G4DataInterpolation.hh:
 
-/usr/include/c++/13/cfenv:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
-/root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /root/geant4-install/include/Geant4/G4PhysicsVectorType.hh:
 
-/root/geant4-install/include/Geant4/G4SurfBits.hh:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/13/bits/functexcept.h:
+/usr/include/c++/13/iosfwd:
 
 /root/geant4-install/include/Geant4/G4NavigationLevelRep.icc:
 
-/root/geant4-install/include/Geant4/G4UserRunAction.hh:
+/snap/root-framework/952/usr/local/include/TIsAProxy.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/snap/root-framework/952/usr/local/include/snprintf.h:
 
-/root/geant4-install/include/Geant4/G4Cache.hh:
-
-/usr/include/c++/13/ostream:
-
-/usr/include/alloca.h:
-
-/root/geant4-install/include/Geant4/G4VTree.hh:
-
-/root/geant4-install/include/Geant4/G4GlobalConfig.hh:
+/root/geant4-install/include/Geant4/G4VUserActionInitialization.hh:
 
 /root/geant4-install/include/Geant4/G4SmartVoxelProxy.icc:
 
 /root/geant4-install/include/Geant4/G4BlockingList.hh:
 
-/root/geant4-install/include/Geant4/G4ThreeVector.hh:
-
 /root/geant4-install/include/Geant4/G4ProcessVector.icc:
 
 /root/Geant4Projects/Threshold_Cherenkov_copy/BookScintillatorArray.hh:
 
-/root/geant4-install/include/Geant4/G4StackedTrack.hh:
+/root/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh:
 
-/usr/include/c++/13/bits/memoryfwd.h:
+/usr/include/c++/13/bits/ostream.tcc:
 
-/root/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc:
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /root/geant4-install/include/Geant4/G4ParticleDefinition.hh:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/c++/13/bits/hashtable.h:
 
 /root/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh:
 
-/usr/include/c++/13/bits/concept_check.h:
+/root/geant4-install/include/Geant4/G4TrajectoryContainer.hh:
 
-/usr/include/c++/13/bits/alloc_traits.h:
+/snap/root-framework/current/usr/include/linux/limits.h:
 
-/root/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh:
-
-/root/geant4-install/include/Geant4/G4EnvironmentUtils.hh:
+/usr/include/c++/13/bits/locale_classes.tcc:
 
 /root/geant4-install/include/Geant4/G4VStateDependent.hh:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h:
 
-/root/geant4-install/include/Geant4/G4GPILSelection.hh:
-
-/root/geant4-install/include/Geant4/G4NormalNavigation.icc:
-
-/root/geant4-install/include/Geant4/G4OrderedTable.hh:
-
 /root/geant4-install/include/Geant4/G4OpticalPhysics.hh:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/Rotation.h:
+
+/usr/include/c++/13/bits/regex_compiler.tcc:
+
+/root/geant4-install/include/Geant4/G4Tubs.hh:
+
+/root/geant4-install/include/Geant4/G4Material.hh:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/Random.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc:
 
-/root/geant4-install/include/Geant4/G4MaterialPropertyVector.hh:
+/root/geant4-install/include/Geant4/tools/cids:
+
+/root/geant4-install/include/Geant4/tls.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /root/geant4-install/include/Geant4/pwdefs.hh:
 
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
 /root/Geant4Projects/Threshold_Cherenkov_copy/ActionInitialization.hh:
 
-/root/geant4-install/include/Geant4/tools/eqT:
+/snap/root-framework/current/usr/include/linux/errno.h:
 
-/root/geant4-install/include/Geant4/G4TH3ToolsManager.hh:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/root/geant4-install/include/Geant4/G4ProcessVector.hh:
-
-/usr/include/c++/13/bits/atomic_base.h:
-
-/root/geant4-install/include/Geant4/G4AffineTransform.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /root/geant4-install/include/Geant4/G4DigiFilterFactories.hh:
 
@@ -6966,17 +7388,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.h:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.hh:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /root/geant4-install/include/Geant4/G4BlockingList.icc:
-
-/root/geant4-install/include/Geant4/G4RNGHelper.hh:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
 
 /root/geant4-install/include/Geant4/G4Voxelizer.icc:
 
@@ -6984,53 +7398,65 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4ParticleMomentum.hh:
 
+/root/geant4-install/include/Geant4/G4VModel.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/root/geant4-install/include/Geant4/G4VNtupleManager.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/root/geant4-install/include/Geant4/G4ParticleGun.hh:
+
+/snap/root-framework/current/usr/include/stdint.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
+
+/root/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc:
+
 /root/geant4-install/include/Geant4/G4AnalysisManagerState.hh:
 
 /usr/include/c++/13/cwctype:
 
-/usr/include/c++/13/bits/codecvt.h:
+/root/geant4-install/include/Geant4/G4ThreeVector.hh:
 
-/root/geant4-install/include/Geant4/PTL/TaskRunManager.hh:
+/snap/root-framework/952/usr/local/include/TVirtualMutex.h:
 
-/root/geant4-install/include/Geant4/G4VParticleChange.icc:
-
-/usr/include/c++/13/bits/stl_tree.h:
+/usr/include/c++/13/debug/assertions.h:
 
 /root/geant4-install/include/Geant4/G4Log.hh:
 
-/root/geant4-install/include/Geant4/G4GenericFileManager.icc:
-
-/usr/include/c++/13/cctype:
-
-/root/geant4-install/include/Geant4/G4Allocator.hh:
-
-/root/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc:
-
-/usr/include/c++/13/pstl/execution_defs.h:
-
-/root/geant4-install/include/Geant4/G4VViewer.hh:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc:
-
-/usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/13/set:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/root/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h:
-
 /root/geant4-install/include/Geant4/CLHEP/Geometry/Vector3D.h:
+
+/usr/include/c++/13/iomanip:
+
+/root/geant4-install/include/Geant4/G4VSolid.icc:
+
+/snap/root-framework/952/usr/local/include/TUUID.h:
+
+/root/geant4-install/include/Geant4/G4PhysicsTable.icc:
+
+/snap/root-framework/current/usr/include/strings.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/snap/root-framework/current/usr/include/endian.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/RotationX.h:
 
-/usr/include/asm-generic/errno.h:
+/snap/root-framework/current/usr/include/errno.h:
 
 /usr/include/c++/13/iostream:
 
 /root/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc:
 
 /root/geant4-install/include/Geant4/CLHEP/Geometry/Normal3D.h:
+
+/snap/root-framework/952/usr/local/include/strlcpy.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.h:
 
@@ -7042,55 +7468,79 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4RotationMatrix.hh:
 
+/snap/root-framework/952/usr/local/include/TAttLine.h:
+
+/root/geant4-install/include/Geant4/G4SmartVoxelProxy.hh:
+
+/root/geant4-install/include/Geant4/G4SurfaceProperty.hh:
+
+/root/geant4-install/include/Geant4/G4DataVector.icc:
+
 /root/geant4-install/include/Geant4/G4SmartVoxelNode.hh:
 
-/usr/include/stdint.h:
+/root/geant4-install/include/Geant4/G4SensitiveVolumeList.hh:
+
+/root/geant4-install/include/Geant4/G4String.icc:
 
 /usr/include/c++/13/bitset:
 
 /root/geant4-install/include/Geant4/G4Transform3D.hh:
 
+/snap/root-framework/current/usr/include/sched.h:
+
+/snap/root-framework/952/usr/local/include/TBits.h:
+
+/root/geant4-install/include/Geant4/G4VoxelNavigation.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
 /root/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.h:
 
 /root/geant4-install/include/Geant4/G4SmartVoxelHeader.icc:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+/root/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh:
 
-/usr/include/c++/13/bits/stl_vector.h:
+/usr/include/c++/13/vector:
 
 /root/geant4-install/include/Geant4/trkdefs.hh:
 
 /root/geant4-install/include/Geant4/G4Exception.hh:
 
-/root/geant4-install/include/Geant4/G4ProcessManager.icc:
+/usr/include/c++/13/bits/concept_check.h:
 
-/root/geant4-install/include/Geant4/G4ICRU90StoppingData.hh:
+/root/geant4-install/include/Geant4/G4RandomTools.hh:
 
-/root/geant4-install/include/Geant4/G4PhysicsTable.hh:
+/snap/root-framework/952/usr/local/include/ROOT/RConcurrentHashColl.hxx:
 
-/root/geant4-install/include/Geant4/G4Pow.hh:
+/snap/root-framework/952/usr/local/include/ROOT/RVersion.hxx:
 
-/usr/include/c++/13/bits/functional_hash.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
 
-/root/geant4-install/include/Geant4/G4coutDestination.hh:
+/snap/root-framework/current/usr/include/features.h:
 
-/root/geant4-install/include/Geant4/G4IonisParamMat.hh:
+/root/geant4-install/include/Geant4/G4ElementVector.hh:
+
+/root/geant4-install/include/Geant4/G4VPhysicalVolume.icc:
+
+/usr/include/c++/13/bits/shared_ptr.h:
 
 /root/geant4-install/include/Geant4/G4CacheDetails.hh:
 
-/root/geant4-install/include/Geant4/CLHEP/Random/RanluxppEngine.h:
+/root/geant4-install/include/Geant4/G4ModelingParameters.icc:
 
-/usr/include/c++/13/pstl/pstl_config.h:
+/snap/root-framework/952/usr/local/include/Rtypes.h:
 
 /root/Geant4Projects/Threshold_Cherenkov_copy/ActionInitialization.cc:
 
-/root/geant4-install/include/Geant4/PTL/JoinFunction.hh:
+/usr/include/c++/13/typeinfo:
 
-/root/geant4-install/include/Geant4/G4NavigationHistory.hh:
+/root/geant4-install/include/Geant4/G4UIcommand.hh:
 
-/usr/include/c++/13/bits/stl_construct.h:
+/root/geant4-install/include/Geant4/G4AffineTransform.icc:
 
-/usr/include/c++/13/bits/std_mutex.h:
+/usr/include/c++/13/bits/chrono.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Utility/defs.h:
 
@@ -7100,101 +7550,129 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
 /usr/include/c++/13/bits/locale_facets.tcc:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/RotationZ.icc:
+
+/usr/include/c++/13/cfenv:
+
+/root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/13/backward/binders.h:
 
 /root/geant4-install/include/Geant4/G4ElementTable.hh:
 
+/root/geant4-install/include/Geant4/G4VDigiCollection.hh:
+
+/root/geant4-install/include/Geant4/G4CSGSolid.hh:
+
 /root/geant4-install/include/Geant4/PTL/Task.hh:
 
 /root/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h:
 
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
 /root/geant4-install/include/Geant4/G4AllocatorPool.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.icc:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
 /usr/include/c++/13/cstddef:
 
-/usr/include/c++/13/bits/quoted_string.h:
+/root/geant4-install/include/Geant4/G4ApplicationState.hh:
 
-/root/geant4-install/include/Geant4/G4VExternalNavigation.hh:
+/root/geant4-install/include/Geant4/G4GPILSelection.hh:
+
+/root/geant4-install/include/Geant4/G4NormalNavigation.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /root/geant4-install/include/Geant4/globals.hh:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/root/geant4-install/include/Geant4/G4UserTrackingAction.hh:
 
-/usr/include/c++/13/bits/unique_lock.h:
+/root/geant4-install/include/Geant4/CLHEP/Vector/Rotation.icc:
 
-/root/geant4-install/include/Geant4/G4VPrimaryGenerator.hh:
+/root/geant4-install/include/Geant4/CLHEP/Random/RandBinomial.h:
 
-/usr/include/c++/13/bits/allocator.h:
+/usr/include/c++/13/bits/stl_algo.h:
 
-/root/geant4-install/include/Geant4/G4NavigationLogger.hh:
+/root/geant4-install/include/Geant4/G4VHit.hh:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/root/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h:
 
-/usr/include/endian.h:
+/usr/include/c++/13/bits/hashtable_policy.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h:
 
-/root/geant4-install/include/Geant4/G4VUIshell.hh:
-
-/usr/include/c++/13/bits/locale_classes.h:
-
-/root/geant4-install/include/Geant4/G4VHitsCollection.hh:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
 /root/geant4-install/include/Geant4/G4VSolid.hh:
 
-/root/geant4-install/include/Geant4/G4NavigationLevel.icc:
-
-/root/geant4-install/include/Geant4/G4ReplicaNavigation.hh:
-
-/usr/include/c++/13/bits/sstream.tcc:
-
-/root/geant4-install/include/Geant4/G4UserEventAction.hh:
-
-/root/geant4-install/include/Geant4/G4AutoLock.hh:
+/snap/root-framework/952/usr/local/include/TObjArray.h:
 
 /root/geant4-install/include/Geant4/G4TrajectoriesModel.hh:
 
 /root/geant4-install/include/Geant4/G4Polyhedron.hh:
 
-/root/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h:
+/snap/root-framework/current/usr/include/asm-generic/errno-base.h:
+
+/root/geant4-install/include/Geant4/G4NavigationLevel.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/root/geant4-install/include/Geant4/G4ReplicaNavigation.hh:
+
+/root/geant4-install/include/Geant4/G4UserEventAction.hh:
+
+/root/geant4-install/include/Geant4/G4AutoLock.hh:
+
+/root/geant4-install/include/Geant4/G4NavigationHistory.icc:
+
+/snap/root-framework/952/usr/local/include/ROOT/TSpinMutex.hxx:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/snap/root-framework/current/usr/include/string.h:
 
 /root/geant4-install/include/Geant4/G4GeneralParticleSourceMessenger.hh:
 
 /root/geant4-install/include/Geant4/G4NavigationHistoryPool.hh:
 
-/root/geant4-install/include/Geant4/G4UImessenger.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
-/root/geant4-install/include/Geant4/G4VSDFilter.hh:
+/root/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh:
 
-/usr/include/c++/13/backward/auto_ptr.h:
+/snap/root-framework/952/usr/local/include/ROOT/RSpan.hxx:
 
-/usr/include/c++/13/bits/locale_facets.h:
+/snap/root-framework/952/usr/local/include/RtypesCore.h:
+
+/root/geant4-install/include/Geant4/G4Sphere.icc:
+
+/root/geant4-install/include/Geant4/tools/histo/p2:
+
+/usr/include/c++/13/complex:
 
 /root/geant4-install/include/Geant4/G4NavigationLevelRep.hh:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+/root/geant4-install/include/Geant4/G4Point3D.hh:
 
-/usr/include/c++/13/bits/ostream.tcc:
+/snap/root-framework/952/usr/local/include/TCollection.h:
 
 /root/geant4-install/include/Geant4/G4SceneHandlerList.hh:
 
 /root/geant4-install/include/Geant4/G4VUserEventInformation.hh:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/c++/13/unordered_set:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/root/geant4-install/include/Geant4/G4Navigator.hh:
 
 /root/geant4-install/include/Geant4/G4HepRepFileXMLWriter.hh:
 
@@ -7202,39 +7680,57 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4Navigator.icc:
 
-/usr/include/c++/13/bits/invoke.h:
+/root/geant4-install/include/Geant4/G4PDefManager.hh:
 
-/root/geant4-install/include/Geant4/G4ParticleDefinition.icc:
+/snap/root-framework/952/usr/local/include/TStorage.h:
 
 /root/geant4-install/include/Geant4/G4Box.hh:
 
+/root/geant4-install/include/Geant4/G4AffineTransform.hh:
+
+/snap/root-framework/952/usr/local/include/TVersionCheck.h:
+
+/root/geant4-install/include/Geant4/tools/eqT:
+
+/root/geant4-install/include/Geant4/G4TH3ToolsManager.hh:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
 /root/geant4-install/include/Geant4/G4ReplicaNavigation.icc:
-
-/usr/include/c++/13/tr1/poly_hermite.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/DetectorConstruction.cc:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/RotationY.icc:
 
-/usr/include/c++/13/bits/parse_numbers.h:
-
-/root/geant4-install/include/Geant4/G4VPhysicalVolume.hh:
-
 /root/geant4-install/include/Geant4/G4VNavigation.hh:
 
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+/root/geant4-install/include/Geant4/G4NavigationLevel.hh:
 
-/root/geant4-install/include/Geant4/G4ParticleGun.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/root/geant4-install/include/Geant4/G4Polycone.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
+/snap/root-framework/952/usr/local/include/strtok.h:
+
+/root/geant4-install/include/Geant4/G4TypeKey.hh:
+
+/root/geant4-install/include/Geant4/G4SystemOfUnits.hh:
+
+/root/geant4-install/include/Geant4/G4VTouchable.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/snap/root-framework/current/usr/include/wchar.h:
 
 /root/geant4-install/include/Geant4/G4PhysicsVector.icc:
 
 /usr/include/c++/13/memory:
 
-/usr/include/c++/13/bits/std_function.h:
+/snap/root-framework/952/usr/local/include/TDirectoryFile.h:
 
-/usr/include/c++/13/bits/char_traits.h:
+/snap/root-framework/952/usr/local/include/Bytes.h:
 
 /root/geant4-install/include/Geant4/G4UIcommandStatus.hh:
 
@@ -7242,73 +7738,83 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/13/bits/stl_bvector.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/root/geant4-install/include/Geant4/G4VPVParameterisation.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/root/geant4-install/include/Geant4/G4PrimaryParticle.hh:
+/snap/root-framework/952/usr/local/include/TBranchCacheInfo.h:
 
-/root/geant4-install/include/Geant4/G4IonisParamElm.hh:
+/usr/include/c++/13/stack:
 
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/c++/13/bits/stringfwd.h:
-
-/root/geant4-install/include/Geant4/G4OpticalSurface.hh:
+/root/geant4-install/include/Geant4/G4IsotopeVector.hh:
 
 /root/geant4-install/include/Geant4/G4MTBarrier.hh:
 
 /root/geant4-install/include/Geant4/G4Region.hh:
 
-/usr/include/c++/13/bits/node_handle.h:
+/root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.hh:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/snap/root-framework/952/usr/local/include/TDatime.h:
 
 /root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.cc:
 
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
 /root/geant4-install/include/Geant4/G4Region.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/c++/13/ios:
+
+/root/geant4-install/include/Geant4/G4VTree.hh:
+
+/root/geant4-install/include/Geant4/G4GlobalConfig.hh:
+
+/root/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh:
+
+/root/geant4-install/include/Geant4/G4EnvironmentUtils.hh:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
 
 /root/geant4-install/include/Geant4/G4SPSAngDistribution.hh:
 
-/root/geant4-install/include/Geant4/G4SingleParticleSource.hh:
+/root/geant4-install/include/Geant4/G4SPSRandomGenerator.hh:
+
+/usr/include/c++/13/bits/std_thread.h:
+
+/root/geant4-install/include/Geant4/G4VCSGface.hh:
+
+/usr/include/c++/13/bits/stl_stack.h:
+
+/usr/include/c++/13/initializer_list:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
 
 /root/geant4-install/include/Geant4/G4VisAttributes.icc:
 
 /root/geant4-install/include/Geant4/G4SmartVoxelNode.icc:
 
-/root/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h:
+/root/geant4-install/include/Geant4/G4ProcessManager.icc:
 
-/usr/include/c++/13/bits/exception_defines.h:
+/root/geant4-install/include/Geant4/G4ICRU90StoppingData.hh:
 
-/usr/include/c++/13/bits/exception_ptr.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/c++/13/bits/this_thread_sleep.h:
+/root/geant4-install/include/Geant4/CLHEP/Vector/AxisAngle.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/root/geant4-install/include/Geant4/G4SceneTreeItem.hh:
+/root/geant4-install/include/Geant4/G4Polycone.hh:
 
-/usr/include/c++/13/bits/ptr_traits.h:
+/snap/root-framework/current/usr/include/time.h:
 
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/root/geant4-install/include/Geant4/templates.hh:
-
-/root/geant4-install/include/Geant4/G4UIdirectory.hh:
-
-/root/geant4-install/include/Geant4/G4SteppingControl.hh:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/climits:
-
-/root/geant4-install/include/Geant4/G4Visible.hh:
+/snap/root-framework/952/usr/local/include/ROOT/TypeTraits.hxx:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.h:
 
@@ -7316,29 +7822,449 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4ParameterisedNavigation.icc:
 
-/root/geant4-install/include/Geant4/G4PolyconeSide.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/root/geant4-install/include/Geant4/G4CSGSolid.hh:
+/snap/root-framework/current/usr/include/alloca.h:
 
 /root/geant4-install/include/Geant4/G4Threading.hh:
 
-/root/geant4-install/include/Geant4/G4RegularNavigation.hh:
+/root/geant4-install/include/Geant4/G4TaskRunManager.hh:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/snap/root-framework/current/usr/include/pthread.h:
+
+/usr/include/c++/13/string:
+
+/root/geant4-install/include/Geant4/G4VHitsCollection.hh:
+
+/root/geant4-install/include/Geant4/G4VUIshell.hh:
+
+/usr/include/c++/13/bits/locale_classes.h:
+
+/snap/root-framework/current/usr/include/features-time64.h:
+
+/root/geant4-install/include/Geant4/G4VPrimaryGenerator.hh:
+
+/usr/include/c++/13/bits/unique_lock.h:
+
+/root/geant4-install/include/Geant4/G4ExceptionSeverity.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/root/geant4-install/include/Geant4/G4Physics2DVector.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/root/geant4-install/include/Geant4/G4Polyhedra.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/root/geant4-install/include/Geant4/G4VExternalNavigation.hh:
+
+/usr/include/c++/13/bits/quoted_string.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/bits/vector.tcc:
+
+/usr/include/c++/13/optional:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandFlat.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/root/geant4-install/include/Geant4/G4DynamicParticle.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/root/geant4-install/include/Geant4/templates.hh:
+
+/root/geant4-install/include/Geant4/G4UIdirectory.hh:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/root/geant4-install/include/Geant4/G4SurfBits.hh:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/root/geant4-install/include/Geant4/G4VUserTrackInformation.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/c++/13/cwchar:
+
+/root/geant4-install/include/Geant4/G4SingleParticleSource.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RanluxppEngine.h:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/root/geant4-install/include/Geant4/G4ParticleDefinition.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/bits/codecvt.h:
+
+/root/geant4-install/include/Geant4/PTL/TaskRunManager.hh:
+
+/root/geant4-install/include/Geant4/G4VParticleChange.icc:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/13/bits/istream.tcc:
+
+/root/geant4-install/include/Geant4/G4NistElementBuilder.hh:
+
+/usr/include/c++/13/bits/locale_conv.h:
+
+/root/geant4-install/include/Geant4/G4OpenGLStoredQt.hh:
+
+/snap/root-framework/952/usr/local/include/TFile.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/root/geant4-install/include/Geant4/G4VUPLSplitter.hh:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/bits/stl_set.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.hh:
+
+/root/geant4-install/include/Geant4/G4Isotope.hh:
+
+/root/geant4-install/include/Geant4/G4String.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/root/geant4-install/include/Geant4/G4VModelFactory.hh:
+
+/usr/include/c++/13/csignal:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/c++/13/bits/list.tcc:
+
+/usr/include/c++/13/type_traits:
+
+/root/geant4-install/include/Geant4/G4ProductionCuts.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandPoisson.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/root/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/usr/include/c++/13/bits/unique_ptr.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+
+/root/geant4-install/include/Geant4/G4TrackingManager.hh:
+
+/root/geant4-install/include/Geant4/G4NistMaterialBuilder.hh:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/13/atomic:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/root/geant4-install/include/Geant4/G4NormalNavigation.hh:
+
+/usr/include/c++/13/bit:
+
+/root/geant4-install/include/Geant4/G4VisExtent.hh:
+
+/root/geant4-install/include/Geant4/G4EventManager.hh:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
 
 /usr/include/c++/13/bits/algorithmfwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/root/geant4-install/include/Geant4/G4SPSPosDistribution.hh:
+
+/usr/include/c++/13/bits/align.h:
+
+/root/geant4-install/include/Geant4/G4NavigationLogger.hh:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/unordered_map:
+
+/root/geant4-install/include/Geant4/G4ProcessVector.hh:
+
+/usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/c++/13/bits/atomic_futex.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/c++/13/queue:
+
+/root/geant4-install/include/Geant4/trkgdefs.hh:
+
+/root/geant4-install/include/Geant4/G4Track.hh:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/root/geant4-install/include/Geant4/G4VVisManager.hh:
+
+/snap/root-framework/952/usr/local/include/TNamed.h:
+
+/usr/include/c++/13/cassert:
+
+/snap/root-framework/952/usr/local/include/ROOT/TIOFeatures.hxx:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Geometry/Point3D.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/c++/13/bits/this_thread_sleep.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/main.cc:
+
+/usr/include/c++/13/bits/fstream.tcc:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
+
+/root/geant4-install/include/Geant4/G4coutDestination.hh:
+
+/snap/root-framework/952/usr/local/include/DllImport.h:
+
+/root/geant4-install/include/Geant4/G4IonisParamMat.hh:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/c++/13/iterator:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.h:
+
+/root/geant4-install/include/Geant4/G4Step.hh:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/streambuf:
+
+/root/geant4-install/include/Geant4/G4StackedTrack.hh:
+
+/root/geant4-install/include/Geant4/CLHEP/Vector/RotationX.icc:
+
+/usr/include/c++/13/bits/memoryfwd.h:
+
+/usr/include/c++/13/bits/move.h:
+
+/root/geant4-install/include/Geant4/geomdefs.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/regex_automaton.tcc:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/root/geant4-install/include/Geant4/G4IonisParamElm.hh:
+
+/root/geant4-install/include/Geant4/G4VPhysicalVolume.hh:
+
+/usr/include/c++/13/bits/parse_numbers.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/root/geant4-install/include/Geant4/G4PolyconeHistorical.hh:
+
+/root/geant4-install/include/Geant4/G4Visible.icc:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/root/geant4-install/include/Geant4/G4TouchableHandle.hh:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/root/geant4-install/include/Geant4/G4SceneTreeItem.hh:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/root/geant4-install/include/Geant4/G4VViewer.hh:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandomEngine.icc:
+
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/13/set:
+
+/root/geant4-install/include/Geant4/G4RNGHelper.hh:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/bits/specfun.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/sstream.tcc:
+
+/usr/include/c++/13/bits/std_mutex.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/root/geant4-install/include/Geant4/G4VPVParameterisation.hh:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/root/geant4-install/include/Geant4/PTL/JoinFunction.hh:
+
+/root/geant4-install/include/Geant4/G4NavigationHistory.hh:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/utility:
+
+/root/geant4-install/include/Geant4/G4LogicalSkinSurface.icc:
+
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandGauss.icc:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/root/geant4-install/include/Geant4/G4Colour.hh:
+
+/usr/include/c++/13/bits/stl_multiset.h:
+
+/usr/include/c++/13/bits/regex_executor.tcc:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.cc:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/c++/13/bits/utility.h:
+
+/root/geant4-install/include/Geant4/G4GenericFileManager.icc:
+
+/usr/include/c++/13/cctype:
+
+/root/geant4-install/include/Geant4/tools/typedefs:
+
+/usr/include/c++/13/chrono:
+
+/snap/root-framework/current/usr/include/execinfo.h:
+
+/root/geant4-install/include/Geant4/G4Visible.hh:
+
+/usr/include/c++/13/climits:
+
+/root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.cc:
+
+/root/geant4-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/clocale:
+
+/root/geant4-install/include/Geant4/G4ThreadLocalSingleton.hh:
+
+/usr/include/c++/13/cmath:
 
 /usr/include/c++/13/condition_variable:
 
-/root/geant4-install/include/Geant4/tools/histo/h1:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/usr/include/c++/13/cstdarg:
 
 /usr/include/c++/13/regex:
 
@@ -7346,25 +8272,21 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/cstdint:
 
-/usr/include/limits.h:
+/root/geant4-install/include/Geant4/G4Orb.hh:
 
-/usr/include/c++/13/cstdlib:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/root/geant4-install/include/Geant4/G4DCofThisEvent.hh:
+
+/usr/include/math.h:
+
+/usr/include/c++/13/cstdio:
 
 /usr/include/c++/13/ctime:
-
-/usr/include/c++/13/cwchar:
-
-/usr/include/c++/13/debug/assertions.h:
 
 /usr/include/c++/13/bits/stl_list.h:
 
 /usr/include/c++/13/debug/debug.h:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandGaussQ.icc:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/linux/errno.h:
 
 /usr/include/c++/13/exception:
 
@@ -7374,11 +8296,17 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/pstl/glue_memory_defs.h:
 
+/root/geant4-install/include/Geant4/G4RandomDirection.hh:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
 /usr/include/c++/13/ext/atomicity.h:
-
-/usr/include/c++/13/deque:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/13/ext/concurrence.h:
 
@@ -7386,43 +8314,27 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/ext/string_conversions.h:
 
+/root/geant4-install/include/Geant4/G4OpticalParameters.hh:
+
+/snap/root-framework/952/usr/local/include/TUrl.h:
+
+/usr/include/c++/13/ext/type_traits.h:
+
 /usr/include/c++/13/fstream:
+
+/snap/root-framework/current/usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/future:
 
-/root/geant4-install/include/Geant4/G4TaskRunManager.hh:
-
-/usr/include/c++/13/string:
-
-/usr/include/features.h:
-
-/root/geant4-install/include/Geant4/G4VSolid.icc:
-
-/usr/include/c++/13/iomanip:
-
-/usr/include/strings.h:
-
-/usr/include/c++/13/iosfwd:
-
 /usr/include/c++/13/istream:
 
+/snap/root-framework/952/usr/local/include/TAttMarker.h:
+
 /usr/include/c++/13/limits:
-
-/usr/include/signal.h:
-
-/usr/include/c++/13/tr1/hypergeometric.tcc:
-
-/root/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/c++/13/bits/stl_map.h:
 
 /usr/include/c++/13/locale:
-
-/root/geant4-install/include/Geant4/G4StepStatus.hh:
 
 /root/geant4-install/include/Geant4/PTL/Threading.hh:
 
@@ -7430,55 +8342,21 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/string_view:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
 /root/geant4-install/include/Geant4/CLHEP/Random/RanecuEngine.h:
 
 /usr/include/c++/13/mutex:
 
 /usr/include/c++/13/new:
 
-/root/geant4-install/include/Geant4/G4Polycone.icc:
-
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
-
-/root/geant4-install/include/Geant4/G4LogicalBorderSurface.hh:
-
 /root/geant4-install/include/Geant4/CLHEP/Random/RandBit.icc:
 
 /usr/include/c++/13/ratio:
 
-/root/geant4-install/include/Geant4/G4OpenGLQt.hh:
-
-/usr/include/linux/limits.h:
-
 /usr/include/c++/13/sstream:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/root/geant4-install/include/Geant4/geomdefs.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.cc:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h:
-
-/usr/include/c++/13/clocale:
-
-/usr/include/c++/13/stdexcept:
-
-/root/geant4-install/include/Geant4/G4Navigator.hh:
-
-/usr/include/c++/13/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
 /usr/include/c++/13/thread:
 
 /usr/include/c++/13/tr1/beta_function.tcc:
-
-/root/geant4-install/include/Geant4/G4Track.icc:
 
 /usr/include/c++/13/tr1/ell_integral.tcc:
 
@@ -7488,13 +8366,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/c++/13/tr1/gamma.tcc:
 
-/root/geant4-install/include/Geant4/G4VAnalysisManager.icc:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/c++/13/tr1/legendre_function.tcc:
-
-/root/geant4-install/include/Geant4/G4Sphere.hh:
-
-/root/geant4-install/include/Geant4/G4UnionSolid.hh:
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
 
@@ -7504,11 +8378,9 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
 
-/root/geant4-install/include/Geant4/CLHEP/Vector/LorentzVector.icc:
-
-/usr/include/c++/13/tr1/riemann_zeta.tcc:
-
 /root/geant4-install/include/Geant4/G4VBooleanProcessor.hh:
+
+/snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/c++/13/tr1/poly_laguerre.tcc:
 
@@ -7518,227 +8390,15 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4Exp.hh:
 
-/root/geant4-install/include/Geant4/G4LogicalSurface.icc:
-
-/root/geant4-install/include/Geant4/G4UIcommand.hh:
-
-/usr/include/c++/13/typeinfo:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
-
-/root/geant4-install/include/Geant4/G4VUserActionInitialization.hh:
-
-/usr/include/ctype.h:
-
-/usr/include/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/libintl.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/root/geant4-install/include/Geant4/G4PrimaryVertex.hh:
-
-/root/geant4-install/include/Geant4/G4LogicalBorderSurface.icc:
-
-/root/geant4-install/include/Geant4/G4ProductionCutsTable.hh:
-
-/usr/include/locale.h:
-
-/usr/include/pthread.h:
-
-/usr/include/c++/13/fenv.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
-
-/usr/include/stdc-predef.h:
-
-/root/geant4-install/include/Geant4/G4LogicalSurface.hh:
-
 /root/geant4-install/include/Geant4/G4GeneralParticleSource.hh:
 
 /usr/include/stdlib.h:
 
-/usr/include/string.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/root/geant4-install/include/Geant4/G4SmartVoxelProxy.hh:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/root/geant4-install/include/Geant4/G4DataVector.icc:
-
-/root/geant4-install/include/Geant4/G4SurfaceProperty.hh:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/13/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/root/geant4-install/include/Geant4/G4Polyhedra.hh:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/c++/13/bits/stl_multiset.h:
-
-/root/geant4-install/include/Geant4/G4Colour.hh:
-
-/root/geant4-install/include/Geant4/G4PDefManager.hh:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/root/geant4-install/include/Geant4/G4VSensitiveDetector.hh:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/root/geant4-install/include/Geant4/G4VDigiCollection.hh:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/root/geant4-install/include/Geant4/G4ApplicationState.hh:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/root/geant4-install/include/Geant4/G4EmStandardPhysics.hh:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/c++/13/bits/locale_conv.h:
-
-/root/geant4-install/include/Geant4/G4NistElementBuilder.hh:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/root/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh:
-
-/root/geant4-install/include/Geant4/G4OpticalParameters.hh:
-
-/usr/include/c++/13/ext/type_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/stack:
-
-/root/geant4-install/include/Geant4/G4IsotopeVector.hh:
-
-/root/geant4-install/include/Geant4/PTL/VTask.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/root/geant4-install/include/Geant4/G4Physics2DVector.icc:
-
-/root/geant4-install/include/Geant4/G4Orb.hh:
-
-/root/geant4-install/include/Geant4/G4DCofThisEvent.hh:
-
-/usr/include/math.h:
-
-/usr/include/c++/13/cstdio:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/root/geant4-install/include/Geant4/G4DisplacedSolid.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
-/root/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/c++/13/bits/list.tcc:
-
-/usr/include/c++/13/type_traits:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/13/ios:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/snap/root-framework/current/usr/include/linux/close_range.h:
 
 /usr/include/c++/13/bits/charconv.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/root/geant4-install/include/Geant4/G4VReadOutGeometry.hh:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/root/geant4-install/include/Geant4/G4ElementVector.hh:
-
-/root/geant4-install/include/Geant4/G4RandomDirection.hh:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
@@ -7746,19 +8406,15 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
 /usr/include/c++/13/cstring:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
 /root/geant4-install/include/Geant4/G4ios.hh:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
@@ -7766,37 +8422,21 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4DensityEffectCalculator.hh:
 
+/snap/root-framework/current/usr/include/locale.h:
+
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
-
-/root/geant4-install/include/Geant4/G4PhysicsVector.hh:
-
-/usr/include/c++/13/bits/erase_if.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/snap/root-framework/952/usr/local/include/TObject.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 /root/geant4-install/include/Geant4/CLHEP/Vector/TwoVector.icc:
 
-/root/geant4-install/include/Geant4/G4BooleanSolid.icc:
-
 /root/geant4-install/include/Geant4/G4Box.icc:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandBreitWigner.h:
-
-/root/geant4-install/include/Geant4/G4HCofThisEvent.hh:
-
-/root/geant4-install/include/Geant4/G4DataVector.hh:
 
 /root/geant4-install/include/Geant4/CLHEP/Random/Random.icc:
 
@@ -7804,150 +8444,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/main.cc.o: /root/Geant4Projects/Threshol
 
 /root/geant4-install/include/Geant4/G4Element.hh:
 
+/snap/root-framework/952/usr/local/include/TSchemaRule.h:
+
 /root/geant4-install/include/Geant4/G4GeomConfig.hh:
-
-/root/geant4-install/include/Geant4/PTL/AutoLock.hh:
-
-/root/geant4-install/include/Geant4/G4Vector3D.hh:
-
-/root/geant4-install/include/Geant4/G4ParticleChange.hh:
-
-/root/geant4-install/include/Geant4/G4GeomTypes.hh:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/EventAction.hh:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/root/geant4-install/include/Geant4/G4Isotope.hh:
-
-/usr/include/c++/13/vector:
-
-/root/geant4-install/include/Geant4/G4MaterialPropertiesIndex.hh:
-
-/root/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh:
-
-/root/geant4-install/include/Geant4/G4MaterialTable.hh:
-
-/root/geant4-install/include/Geant4/G4TrackingManager.hh:
-
-/usr/include/c++/13/bits/uniform_int_dist.h:
-
-/root/geant4-install/include/Geant4/G4NistMaterialBuilder.hh:
-
-/root/geant4-install/include/Geant4/G4PVPlacement.hh:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/root/geant4-install/include/Geant4/G4Point3D.hh:
-
-/root/geant4-install/include/Geant4/G4SandiaTable.hh:
-
-/root/geant4-install/include/Geant4/G4TypeKey.hh:
-
-/root/geant4-install/include/Geant4/G4VTouchable.hh:
-
-/root/geant4-install/include/Geant4/G4SystemOfUnits.hh:
-
-/root/geant4-install/include/Geant4/G4BooleanSolid.hh:
-
-/root/geant4-install/include/Geant4/G4TwoVector.hh:
-
-/root/geant4-install/include/Geant4/G4RayTracer.hh:
-
-/root/geant4-install/include/Geant4/G4ElectronOccupancy.hh:
-
-/root/geant4-install/include/Geant4/G4PolyconeHistorical.hh:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/root/geant4-install/include/Geant4/G4TouchableHandle.hh:
-
-/root/geant4-install/include/Geant4/G4Visible.icc:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.cc:
-
-/root/geant4-install/include/Geant4/HepPolyhedron.h:
-
-/root/geant4-install/include/Geant4/G4Color.hh:
-
-/root/geant4-install/include/Geant4/G4VProcess.hh:
-
-/root/geant4-install/include/Geant4/G4Cons.hh:
-
-/root/geant4-install/include/Geant4/G4Cons.icc:
-
-/root/geant4-install/include/Geant4/G4Physics2DVector.hh:
-
-/root/geant4-install/include/Geant4/G4SubtractionSolid.hh:
-
-/usr/include/c++/13/bits/regex_compiler.tcc:
-
-/root/geant4-install/include/Geant4/G4Material.hh:
-
-/root/geant4-install/include/Geant4/G4Tubs.hh:
-
-/root/geant4-install/include/Geant4/CLHEP/Geometry/Transform3D.icc:
-
-/root/geant4-install/include/Geant4/G4VHit.hh:
-
-/usr/include/c++/13/bits/unordered_map.h:
-
-/root/geant4-install/include/Geant4/CLHEP/Random/RandStudentT.icc:
-
-/root/geant4-install/include/Geant4/G4Tubs.icc:
-
-/root/geant4-install/include/Geant4/G4VisAttributes.hh:
-
-/root/geant4-install/include/Geant4/graphics_reps_defs.hh:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.hh:
-
-/root/geant4-install/include/Geant4/G4CollectionNameVector.hh:
-
-/root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.hh:
-
-/root/geant4-install/include/Geant4/G4DynamicParticle.hh:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/root/geant4-install/include/Geant4/G4LogicalSkinSurface.hh:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/root/geant4-install/include/Geant4/G4LogicalSkinSurface.icc:
-
-/root/geant4-install/include/Geant4/G4ASCIITree.hh:
-
-/root/geant4-install/include/Geant4/G4RunManagerKernel.hh:
-
-/root/geant4-install/include/Geant4/G4LorentzVector.hh:
-
-/root/geant4-install/include/Geant4/G4PhysicalConstants.hh:
-
-/root/geant4-install/include/Geant4/G4TH2ToolsManager.hh:
-
-/root/geant4-install/include/Geant4/G4SDManager.hh:
-
-/root/geant4-install/include/Geant4/G4SDStructure.hh:
-
-/root/geant4-install/include/Geant4/G4String.icc:
-
-/root/geant4-install/include/Geant4/G4SensitiveVolumeList.hh:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/root/geant4-install/include/Geant4/G4Step.hh:
-
-/root/geant4-install/include/Geant4/G4Step.icc:
-
-/root/geant4-install/include/Geant4/G4StepPoint.hh:
-
-/usr/include/c++/13/queue:
-
-/root/geant4-install/include/Geant4/trkgdefs.hh:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/root/geant4-install/include/Geant4/G4Track.hh:
-
-/root/geant4-install/include/Geant4/G4TrackStatus.hh:

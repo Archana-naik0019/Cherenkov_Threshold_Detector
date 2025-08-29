@@ -1,6 +1,10 @@
 void Overlay_Gen_PMT_Det() {
     // Open the ROOT file
-    TFile* file = new TFile("output_2.root");
+    
+     for (int i = 2; i <= 16; i += 1) {   // loop from 2 to 16 in steps of 2
+        TString fname = Form("output_4foldtest_%d.root", i);
+        TFile* file = new TFile(fname, "READ");
+    //TFile* file = new TFile(" output_4foldtest_15.root");
 
     // Retrieve the histograms
     TH1F* h1 = (TH1F*)file->Get("hGeneratedPhotons");
@@ -15,20 +19,26 @@ void Overlay_Gen_PMT_Det() {
     }
 
     // Create a canvas
-    TCanvas* c1 = new TCanvas("c1", "Overlay Line Histograms", 800, 600);
+    //TCanvas* c1 = new TCanvas("c1", "Overlay Line Histograms", 800, 600);
+    TCanvas* c1 = new TCanvas(Form("c%d", i), Form("Overlay %d atm", i), 800, 600);
+    
+     //c1->SetLogy();
 
     // Set line styles instead of bar/filled
     h1->SetLineColor(kBlue);
     h1->SetLineWidth(2);
-    h1->SetTitle("Photon Distribution(2atm);Number of Photons;Number of Events");
+    h1->SetMaximum(450);
+    h1->SetTitle(Form("Photon Distribution(%d atm);Number of Photons;Number of Events",i));
     h1->Draw("HIST");
 
     h2->SetLineColor(kRed);
     h2->SetLineWidth(2);
+    h2->SetMaximum(450);
     h2->Draw("HIST SAME");
 
     h3->SetLineColor(kGreen+2);
     h3->SetLineWidth(2);
+    h3->SetMaximum(450);
     h3->Draw("HIST SAME");
 
     // Add legend
@@ -40,4 +50,4 @@ void Overlay_Gen_PMT_Det() {
 
     c1->Update();
 }
-
+}

@@ -1,17 +1,18 @@
 CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: \
  /root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.cc \
- /usr/include/stdc-predef.h \
+ /snap/root-framework/current/usr/include/stdc-predef.h \
  /root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.hh \
  /usr/include/c++/13/map /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
- /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/bits/timesize.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/long-double.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /snap/root-framework/current/usr/include/features.h \
+ /snap/root-framework/current/usr/include/features-time64.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
  /usr/include/c++/13/pstl/pstl_config.h \
  /usr/include/c++/13/bits/stl_tree.h \
@@ -54,29 +55,31 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
- /usr/include/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /snap/root-framework/current/usr/include/wchar.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/c++/13/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
- /usr/include/c++/13/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/iosfwd \
- /usr/include/c++/13/cctype /usr/include/ctype.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/c++/13/clocale \
+ /snap/root-framework/current/usr/include/locale.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/locale.h \
+ /usr/include/c++/13/iosfwd /usr/include/c++/13/cctype \
+ /snap/root-framework/current/usr/include/ctype.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time64.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endian.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/c++/13/bits/ostream_insert.h \
  /usr/include/c++/13/bits/cxxabi_forced.h \
  /usr/include/c++/13/bits/refwrap.h \
@@ -85,40 +88,47 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/string_view.tcc \
  /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
- /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
- /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
- /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
- /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
- /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/stdlib.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/types.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /snap/root-framework/current/usr/include/endian.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/select.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/select.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+ /snap/root-framework/current/usr/include/alloca.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/13/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /snap/root-framework/current/usr/include/stdio.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/13/cerrno \
+ /snap/root-framework/current/usr/include/errno.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/errno.h \
+ /snap/root-framework/current/usr/include/linux/errno.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/asm/errno.h \
+ /snap/root-framework/current/usr/include/asm-generic/errno.h \
+ /snap/root-framework/current/usr/include/asm-generic/errno-base.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc /usr/include/c++/13/fstream \
  /usr/include/c++/13/istream /usr/include/c++/13/ios \
@@ -128,19 +138,21 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: \
  /usr/include/c++/13/bits/ios_base.h /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h \
- /usr/include/x86_64-linux-gnu/bits/sched.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/x86_64-linux-gnu/bits/setjmp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /snap/root-framework/current/usr/include/pthread.h \
+ /snap/root-framework/current/usr/include/sched.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/sched.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+ /snap/root-framework/current/usr/include/time.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/time.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/timex.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
- /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/sys/single_threaded.h \
  /usr/include/c++/13/bits/locale_classes.h \
  /usr/include/c++/13/bits/locale_classes.tcc \
  /usr/include/c++/13/system_error \
@@ -149,7 +161,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o: \
  /usr/include/c++/13/bits/streambuf.tcc \
  /usr/include/c++/13/bits/basic_ios.h \
  /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /snap/root-framework/current/usr/include/wctype.h \
+ /snap/root-framework/current/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
  /usr/include/c++/13/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
