@@ -4,12 +4,14 @@
 #include "G4Run.hh"
 #include "G4SystemOfUnits.hh"
 
+#include "PrimaryGeneratorAction.hh"
+
 RunAction::RunAction()
     : reflectedPhotons(0), tirPhotons(0), totalGeneratedPhotons(0), totalPhotonsAtPMT(0), totalDetectedPhotons(0), eventID(0) {
     
     auto* analysisManager = G4AnalysisManager::Instance();
     analysisManager->SetVerboseLevel(1);
-    analysisManager->OpenFile("output_withCone_4.root");
+    analysisManager->OpenFile("output_gun_pos6_12.root");
 
     // Photon hit details
     analysisManager->CreateNtuple("Hits", "Photon Hits");
@@ -31,8 +33,8 @@ void RunAction::ConstructHistograms() {
     analysisManager->CreateH1("hPMTPhotons", "Photons Reaching PMT per Event", 1000, 0, 1000); //id 1
     analysisManager->CreateH1("hDetectedPhotons", "Photons Detected per Event", 1000, 0, 1000); //id 2
     
-    analysisManager->CreateH1("MuonEnergyWithGeneratedCherenkov", "Muon energy (events with Cherenkov photons)", 300, 0, 3.5); //id 3
-    analysisManager->CreateH1("MuonEnergyWithDetectedCherenkov", "Muon Energy with >=1 Detected Cherenkov photons", 300, 0, 3.5); //id 4
+    analysisManager->CreateH1("MuonEnergyWithGeneratedCherenkov", "Muon energy (events with Cherenkov photons)", 1500, 0, 15); //id 3
+    analysisManager->CreateH1("MuonEnergyWithDetectedCherenkov", "Muon Energy with >=1 Detected Cherenkov photons", 1500, 0, 15); //id 4
     
     analysisManager->CreateH1("hGeneratedWavelength", "Wavelength of Generated Photons;Wavelength (nm);Count", 800, 100, 900); //id 5
     analysisManager->CreateH1("hAtPMTWavelength", "Wavelength of Photons at PMT;Wavelength (nm);Count", 800, 100, 900); //id 6
@@ -43,31 +45,38 @@ void RunAction::ConstructHistograms() {
     analysisManager->CreateH2(
     "Energy_vs_Yield",
     "Muon Energy vs Photon Yield;Muon Energy (GeV);Yield (photons/mm)", 
-    300, 0, 3.5, 
+    1500, 0, 15, 
     100, 0.0, 100.0
-    ); //id 9
+    ); //id 0(h2)
     
     //------------histograms for 4-fold filtered events------------------------------------------------
-        analysisManager->CreateH1("hGeneratedPhotons_4-fold", "Photons Generated per Event", 2000, 0, 2000); //id 10  
-    analysisManager->CreateH1("hPMTPhotons_4-fold", "Photons Reaching PMT per Event", 1000, 0, 1000); //id 11
-    analysisManager->CreateH1("hDetectedPhotons_4-fold", "Photons Detected per Event", 1000, 0, 1000); //id 12
+        analysisManager->CreateH1("hGeneratedPhotons_4-fold", "Photons Generated per Event", 2000, 0, 2000); //id 9  
+    analysisManager->CreateH1("hPMTPhotons_4-fold", "Photons Reaching PMT per Event", 1000, 0, 1000); //id 10
+    analysisManager->CreateH1("hDetectedPhotons_4-fold", "Photons Detected per Event", 1000, 0, 1000); //id 11
     
-    analysisManager->CreateH1("MuonEnergyWithGeneratedCherenkov_4-fold", "Muon energy (events with Cherenkov photons)", 300, 0, 3.5); //id 13
-    analysisManager->CreateH1("MuonEnergyWithDetectedCherenkov_4-fold", "Muon Energy with >=1 Detected Cherenkov photons", 300, 0, 3.5); //id 14
+    analysisManager->CreateH1("MuonEnergyWithGeneratedCherenkov_4-fold", "Muon energy (events with Cherenkov photons)", 1500, 0, 15); //id 12
+    analysisManager->CreateH1("MuonEnergyWithDetectedCherenkov_4-fold", "Muon Energy with >=1 Detected Cherenkov photons", 1500, 0, 15); //id 13
     
-    analysisManager->CreateH1("hGeneratedWavelength_4-fold", "Wavelength of Generated Photons;Wavelength (nm);Count", 800, 100, 900); //id 15
-    analysisManager->CreateH1("hAtPMTWavelength_4-fold", "Wavelength of Photons at PMT;Wavelength (nm);Count", 800, 100, 900); //id 16
-    analysisManager->CreateH1("hDetectedWavelength_4-fold", "Wavelength of Detected Photons;Wavelength (nm);Count", 800, 100, 900); //id 17
+    analysisManager->CreateH1("hGeneratedWavelength_4-fold", "Wavelength of Generated Photons;Wavelength (nm);Count", 800, 100, 900); //id 14
+    analysisManager->CreateH1("hAtPMTWavelength_4-fold", "Wavelength of Photons at PMT;Wavelength (nm);Count", 800, 100, 900); //id 15
+    analysisManager->CreateH1("hDetectedWavelength_4-fold", "Wavelength of Detected Photons;Wavelength (nm);Count", 800, 100, 900); //id 16
     
-    analysisManager->CreateH1("hYield_4-fold", "Cherenkov Yield;Photons/mm;Events", 100, 0, 10); //id 18
+    analysisManager->CreateH1("hYield_4-fold", "Cherenkov Yield;Photons/mm;Events", 100, 0, 10); //id 17
     
     analysisManager->CreateH2(
     "Energy_vs_Yield_4-fold",
     "Muon Energy vs Photon Yield;Muon Energy (GeV);Yield (photons/mm)", 
     300, 0, 3.5, 
     100, 0.0, 10.0
-    ); //id 19
+    ); //id 1(h2)
     //------------------------------------------------------------------------------------------------------
+
+    //~~~~~~~~~~~~~~~~~~~~checking theta, phi~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    analysisManager->CreateH1("theta_mom", "Muon theta (momentum)", 180, 0., 180.); //id 18
+    analysisManager->CreateH1("phi_mom",   "Muon phi (momentum)",   360, -180., 180.); //id 19
+    
+    
+
 
 }
 

@@ -52,25 +52,34 @@ void EventAction::EndOfEventAction(const G4Event*event) {
         analysisManager->FillH2(0, muonEnergy, yield); //for photon yield per mm
     }
     
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    //auto analysisManager = G4AnalysisManager::Instance();
+    analysisManager->FillH1(18, fTheta/deg);
+    analysisManager->FillH1(19, fPhi/deg);
+
+    
+    //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
     //-----------------------------for 4-fold------------------------------------------
     if (AllBookletsHit()) {
     G4cout << "Muon passed through all 4 booklets this event" << G4endl;
     ///............storing stats for muons that satisffy 4-fold criteria...///
-        analysisManager->FillH1(10, eventGeneratedPhotons);
-        analysisManager->FillH1(11, eventPhotonsAtPMT);  
-        analysisManager->FillH1(12, eventDetectedPhotons);
+        analysisManager->FillH1(9, eventGeneratedPhotons);
+        analysisManager->FillH1(10, eventPhotonsAtPMT);  
+        analysisManager->FillH1(11, eventDetectedPhotons);
 
         if (eventGeneratedPhotons > 0) {
-            analysisManager->FillH1(13, muonEnergy);
+            analysisManager->FillH1(12, muonEnergy);
         }
         if (eventDetectedPhotons > 0) {
-            analysisManager->FillH1(14, muonEnergy);
+            analysisManager->FillH1(13, muonEnergy);
         }
 
         if (fMuonTrackLength > 0) {
             G4double yield = fGeneratedCherenkovPhotons / fMuonTrackLength;  // photons/mm
-            analysisManager->FillH1(18, yield);
-            analysisManager->FillH2(19, muonEnergy, yield);
+            analysisManager->FillH1(17, yield);
+            analysisManager->FillH2(1, muonEnergy, yield);
         }
     ///..................................................................///
     } else {

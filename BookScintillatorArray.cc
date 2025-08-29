@@ -26,13 +26,13 @@ void BookScintillatorArray::Construct() {
 
     // Distance from cylinder to paddle center
     G4double radialDistance = fCylinderRadius + scintZ / 5.0 + (-2.0) * cm;   //5cm between cylinder wall and scint edge
-    G4double zOffset = fCylinderHeight / 2.0 + (-15)*cm;	//prev +7
+    G4double zOffset = fCylinderHeight / 2.0 + (7)*cm;	//prev +7
 
     // V Pair 1 (placed along +X axis, facing cylinder)----
     {
         // Left paddle (leaning inwards, from above)
         {
-            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(+radialDistance, +scintY*0.67 / 2.0, +zOffset);
+            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(+radialDistance, +scintY*0.67 / 2.0, +zOffset-17*cm);
             G4RotationMatrix* rot = new G4RotationMatrix();
             rot->rotateZ(-45.0 * deg);  // lean inward
             new G4PVPlacement(rot, pos, logicB1, "ScintillatorPhys", fWorldLogic, false, 0, true);
@@ -40,7 +40,7 @@ void BookScintillatorArray::Construct() {
 
         // Right paddle (leaning inwards, from below)
         {
-            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(+radialDistance, -scintY*0.67 / 2.0, +zOffset);
+            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(+radialDistance, -scintY*0.67 / 2.0, +zOffset-17*cm);
             G4RotationMatrix* rot = new G4RotationMatrix();
             rot->rotateZ(+45.0 * deg);  // lean inward
             new G4PVPlacement(rot, pos, logicB1, "ScintillatorPhys", fWorldLogic, false, 1, true);
@@ -53,7 +53,7 @@ void BookScintillatorArray::Construct() {
      G4LogicalVolume* logicB2 = new G4LogicalVolume(scintSolid, scintMat, "Logic_Booklet2");
         // Left paddle (leaning inwards, from above)
         {
-            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(-radialDistance, +scintY*0.67/ 2.0, -zOffset);
+            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(-radialDistance, +scintY*0.67/ 2.0, -zOffset + 37*cm);
             G4RotationMatrix* rot = new G4RotationMatrix();
             rot->rotateZ(225.0 * deg);  // 180 - 45 -> inward
             new G4PVPlacement(rot, pos, logicB2, "ScintillatorPhys", fWorldLogic, false, 2, true);
@@ -61,7 +61,7 @@ void BookScintillatorArray::Construct() {
 
         // Right paddle (leaning inwards, from below)
         {
-            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(-radialDistance, -scintY*0.67/ 2.0, -zOffset);
+            G4ThreeVector pos = fCylinderCenter + G4ThreeVector(-radialDistance, -scintY*0.67/ 2.0, -zOffset + 37*cm);
             G4RotationMatrix* rot = new G4RotationMatrix();
             rot->rotateZ(135.0 * deg);  // 180 + 45 -> inward
             new G4PVPlacement(rot, pos, logicB2, "ScintillatorPhys", fWorldLogic, false, 3, true);
@@ -86,7 +86,7 @@ void BookScintillatorArray::Construct() {
     rotB->rotateZ(+225.0 * deg);
     G4ThreeVector deltaB = (*rotB) * G4ThreeVector(0, angledOffset, 0);
 
-    G4ThreeVector basePos = fCylinderCenter + G4ThreeVector(0.75 * radialDistance, 0, 1.2 * fCylinderHeight / 2 + (-30)*cm);
+    G4ThreeVector basePos = fCylinderCenter + G4ThreeVector(0.75 * radialDistance, 0, 1.2 * fCylinderHeight / 2 + (-8)*cm);
 
     G4ThreeVector posA = basePos + deltaA;
     G4ThreeVector posB = basePos + deltaB;
@@ -110,7 +110,7 @@ void BookScintillatorArray::Construct() {
     rotB->rotateZ(135.0 * deg);
     G4ThreeVector deltaB = (*rotB) * G4ThreeVector(0, angledOffset, 0);
 
-    G4ThreeVector basePos = fCylinderCenter + G4ThreeVector(-0.75 * radialDistance, 0, -1.2 * fCylinderHeight / 2 - (-30)*cm);
+    G4ThreeVector basePos = fCylinderCenter + G4ThreeVector(-0.75 * radialDistance, 0, -1.2 * fCylinderHeight / 2 + (28)*cm);
 
     G4ThreeVector posA = basePos + deltaA;
     G4ThreeVector posB = basePos + deltaB;

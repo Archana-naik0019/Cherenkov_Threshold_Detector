@@ -119,7 +119,8 @@ void SteppingAction::UserSteppingAction(const G4Step* step) {
     G4Track* track = step->GetTrack();
     
     //*******************************************************************************
-    if (track->GetDefinition()->GetParticleName() == "mu-") {
+    if (track->GetDefinition()->GetParticleName() == "mu-"  ||
+        track->GetDefinition()->GetParticleName() == "mu+") {	//''''''''''''
     G4double stepLength = step->GetStepLength();
     EventAction* eventAction = static_cast<EventAction*>(
     G4EventManager::GetEventManager()->GetUserEventAction());
@@ -153,15 +154,15 @@ void SteppingAction::UserSteppingAction(const G4Step* step) {
 
     if (volume == logicB1){
         eventAction->SetBookletHit(0); //added laterr
+    }
     if (volume == logicB2){
         eventAction->SetBookletHit(1); //added laterr
+    }
     if (volume == logicB3){
         eventAction->SetBookletHit(2); //added laterr
+    }
     if (volume == logicB4){
         eventAction->SetBookletHit(3); //added laterr
-    }
-    }
-    }
     }
     //----------------------------------------------------------------------------------------
 
@@ -257,10 +258,10 @@ if (rnd < qe) {
     analysisManager->FillH1(analysisManager->GetH1Id("hDetectedWavelength_4-fold"), wavelength);
         }
      
-    G4cout << "[Detected] Photon at " << wavelength << " nm, QE = " << qe << G4endl;
-} else {
-    G4cout << "[Missed] Photon at " << wavelength << " nm, QE = " << qe << G4endl;
-}
+//*/    G4cout << "[Detected] Photon at " << wavelength << " nm, QE = " << qe << G4endl;
+//*/} else {
+//*/    G4cout << "[Missed] Photon at " << wavelength << " nm, QE = " << qe << G4endl;
+//*/}
 
 track->SetTrackStatus(fStopAndKill);
 
@@ -343,4 +344,5 @@ track->SetTrackStatus(fStopAndKill);
 //            }
         }
   }
+}
 }

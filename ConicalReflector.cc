@@ -32,7 +32,7 @@ ConicalReflector::ConicalReflector(G4LogicalVolume* motherLogic,
 
     const G4double outerTopR = 105.0 * mm;
     const G4double innerTopR = 90.0  * mm;
-    const G4double innerBotR = 25.0  * mm;
+    const G4double innerBotR = 25.0  * mm; //prev 25
     const G4double bottomRingThickness = 4.0 * mm;
     const G4double height = 70.0 * mm;
     const G4double halfHeight = height * 0.5;

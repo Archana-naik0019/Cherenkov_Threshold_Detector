@@ -125,7 +125,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
     auto* quartz = nist->FindOrBuildMaterial("G4_SILICON_DIOXIDE");
     auto* silicon = nist->FindOrBuildMaterial("G4_Si"); //for pmt(changed from quartz)
     auto* mylar = nist->FindOrBuildMaterial("G4_POLYETHYLENE");
-    auto* gas = CreatePressurizedNitrogenWithOpticalProperties(4.0 * atmosphere);
+    auto* gas = CreatePressurizedNitrogenWithOpticalProperties(12.0 * atmosphere);
         
     
     // Adding optical properties to Air (world material)

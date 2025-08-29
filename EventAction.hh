@@ -48,7 +48,10 @@ public:
     void ResetBookletHits() { std::fill(fBookletHits.begin(), fBookletHits.end(), false); }
     //-----------------------------------------------------------------------------
     
-    
+    void SetThetaPhi(G4double theta_mom, G4double phi_mom) {
+        fTheta = theta_mom;
+        fPhi   = phi_mom;
+    }
 
 private:
     G4int eventGeneratedPhotons;
@@ -59,7 +62,9 @@ private:
     G4int fGeneratedCherenkovPhotons = 0; //for yield
     
     std::array<G4bool, 4> fBookletHits; // = {false, false, false, false}; //mapping for 4-fold
-
+    
+    G4double fTheta;
+    G4double fPhi;
 
 };
 
