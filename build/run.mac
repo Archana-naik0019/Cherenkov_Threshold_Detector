@@ -1,0 +1,4 @@
+/run/initialize
+/tracking/verbose 2
+/process/optical/cerenkov/verbose 2
+/run/beamOn 1000
