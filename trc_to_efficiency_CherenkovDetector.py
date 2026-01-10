@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 #from Overlay_phot_dist_func import compare_pe_with_geant4
 
-def calculate_pulse_amplitude(voltage, baseline_bins=20):
+def calculate_pulse_amplitude(voltage, baseline_bins=30):
     """Calculate pulse amplitude with baseline subtraction"""
     baseline_voltage = voltage[:baseline_bins]
     baseline_mean = np.mean(baseline_voltage)
@@ -25,11 +25,11 @@ pe_thresholds = [1.0, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
 five_fold_counts = {pe: 0 for pe in pe_thresholds}
 
 # Thresholds
-FOUR_FOLD_THRESHOLD = 0.3  # Your existing threshold for channel 3
-FIVE_FOLD_THRESHOLD = 0.002 # Your existing threshold for channel 4, Redundant as the value is below what we define for 1 PE equivalent
+FOUR_FOLD_THRESHOLD = 0.3  # threshold for channel 3
+FIVE_FOLD_THRESHOLD = 0.002 # threshold for channel 4, Redundant as the value is below what we define for 1 PE equivalent
 
-# Convert 1 p.e. to volts (1 p.e. = 3.5mV)
-ONE_PHOTOELECTRON_V = 0.003002  # 3.5mV in volts @1050mV
+# Convert 1 p.e. to volts (1 p.e. = 3.002mV)
+ONE_PHOTOELECTRON_V = 0.003002  # @1050V bais
 
 for i in range(2, 2914):
     # FILE PATH SETUP
@@ -256,7 +256,7 @@ if cherenkov_amplitudes:
 #============================================================
    
     
-    # Print summary table for easy copying
+    # Print summary table
 print(f"\n" + "="*70)
 print("SUMMARY TABLE (for easy copying)")
 print("="*70)
