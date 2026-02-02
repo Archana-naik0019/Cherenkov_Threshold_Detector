@@ -151,7 +151,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
     const G4int n = 2;
     G4double photonE[n] = {1.239841939 * eV / 0.9, 1.239841939 * eV / 0.1};
     G4double rQuartz[n] = {1.46, 1.46};
-    G4double absQuartz[n] = {6.21 * cm, 6.21 * cm};
+    G4double absQuartz[n] = {6.25 * cm, 6.25 * cm};
     auto* quartzMPT = new G4MaterialPropertiesTable();
     quartzMPT->AddProperty("RINDEX", photonE, rQuartz, n);
     quartzMPT->AddProperty("ABSLENGTH", photonE, absQuartz, n);
