@@ -23,6 +23,10 @@ public:
     
     void IncrementPrimGeneratedPhotons();
     void IncrementSecGeneratedPhotons();
+    
+    void IncrementPhotonsAtQuartzBottom();
+    void IncrementIncidentAtAngle(G4int bin);//&&&&&&&&&
+    void IncrementLostAtAngle(G4int bin);//&&&&
 
     void ConstructHistograms();
     void RecordAmplificationFactor(G4double factor);
@@ -35,6 +39,13 @@ private:
     G4int totalGeneratedPhotons = 0;
     G4int totalPhotonsAtPMT = 0;
     G4int totalDetectedPhotons = 0;
+    
+    G4int totalPhotonsAtQuartzBottom = 0;
+    //&&&&&&&&&&&&&
+    static constexpr G4int nBins = 180;
+    std::vector<G4int> incidentPerAngle;
+    std::vector<G4int> lostPerAngle;
+    G4int fLossVsThetaH2; //&&&&&&&&
 
     std::vector<G4double> amplificationFactors;
 };

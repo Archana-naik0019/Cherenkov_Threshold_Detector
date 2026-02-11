@@ -7,6 +7,8 @@
 #include "PhysicsList.hh"
 #include "ActionInitialization.hh"
 
+#include <fstream>
+
 int main(int argc, char** argv) {
     G4UIExecutive* ui = nullptr;
     if (argc == 1) ui = new G4UIExecutive(argc, argv);
@@ -16,6 +18,7 @@ int main(int argc, char** argv) {
     runManager->SetUserInitialization(new PhysicsList());
     runManager->SetUserInitialization(new ActionInitialization());
     runManager->Initialize();
+
     G4VisManager* visManager = new G4VisExecutive();
     visManager->Initialize();
 

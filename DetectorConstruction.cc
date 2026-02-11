@@ -1,4 +1,4 @@
-//line 125 to alter pressure
+//line 135 to alter pressure
 //#include "QuantumEfficiencyLoader.hh"
 
 #include "DetectorConstruction.hh"
@@ -13,6 +13,8 @@
 #include "G4VisAttributes.hh"
 #include "G4OpticalSurface.hh"
 #include "G4LogicalSkinSurface.hh"
+#include "G4LogicalBorderSurface.hh"
+
 #include "G4SDManager.hh"
 #include "SensitiveDetector.hh"
 
@@ -22,6 +24,8 @@
 #include "RefractiveIndexModel.hh"
 
 #include "CLHEP/Units/PhysicalConstants.h"
+
+#include "Quartz_Transmittance.hh"
 
 
 //Using Pressure to refractive index relation with some corrections from the engineering handbook ():::::::::::::::::::::::::::::::::::::
@@ -130,7 +134,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
     auto* quartz = nist->FindOrBuildMaterial("G4_SILICON_DIOXIDE");
     auto* silicon = nist->FindOrBuildMaterial("G4_Si"); //for pmt(changed from quartz)
     auto* mylar = nist->FindOrBuildMaterial("G4_POLYETHYLENE");
-    auto* gas = CreatePressurizedNitrogenWithOpticalProperties(9.0 * atmosphere);
+    auto* gas = CreatePressurizedNitrogenWithOpticalProperties(16.0 * atmosphere);
         
     
     // Adding optical properties to Air (world material)
@@ -151,10 +155,15 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
     const G4int n = 2;
     G4double photonE[n] = {1.239841939 * eV / 0.9, 1.239841939 * eV / 0.1};
     G4double rQuartz[n] = {1.46, 1.46};
-    G4double absQuartz[n] = {6.21 * cm, 6.21 * cm};
-    auto* quartzMPT = new G4MaterialPropertiesTable();
+    //^^^^^^^^^^^^^^^^^^^^^^^^^^
+    auto* quartzMPT = LoadQuartzTransmittanceCSV("Quartz_jgs2_Dataset.csv", 2*cm);
+if (!quartzMPT) {
+    G4Exception("DetectorConstruction", "CSVError", FatalException, "Failed to load quartz transmittance CSV");
+}
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    //auto* quartzMPT = new G4MaterialPropertiesTable();
     quartzMPT->AddProperty("RINDEX", photonE, rQuartz, n);
-    quartzMPT->AddProperty("ABSLENGTH", photonE, absQuartz, n);
+    //quartzMPT->AddProperty("ABSLENGTH", photonE, absQuartz, n);
     quartz->SetMaterialPropertiesTable(quartzMPT);
     
     //Si abslength defined for qe addition
@@ -243,7 +252,44 @@ logicGas->SetVisAttributes(gasVis);
     auto* solidQuartz = new G4Tubs("Quartz", 0, tubeRadius - tubeThickness, quartzThickness / 2, 0, 360 * deg);
     auto* logicQuartz = new G4LogicalVolume(solidQuartz, quartz, "QuartzLV");
     G4ThreeVector quartzPos(0, 0, -tubeLength / 2 - quartzThickness / 2);
+    G4VPhysicalVolume* physQuartz =      //added for transmittance
     new G4PVPlacement(nullptr, quartzPos, logicQuartz, "QuartzPV", logicWorld, false, 0);
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
+/*    // ---------------- Gas–Quartz optical interface ----------------
+    auto* gasQuartzSurface = new G4OpticalSurface("GasQuartzSurface");
+    gasQuartzSurface->SetType(dielectric_dielectric);
+    gasQuartzSurface->SetModel(unified);
+    gasQuartzSurface->SetFinish(polished);
+    //-----------------------setting values for transmittance-------------
+    const G4int nSurf = 2;
+    G4double surfEnergy[nSurf] = {
+       1.239841939 * eV / 0.9,
+       1.239841939 * eV / 0.1
+    };
+
+    G4double transmittance[nSurf] = {0.8, 0.8};
+
+    auto* gasQuartzMPT = new G4MaterialPropertiesTable();
+    gasQuartzMPT->AddProperty("TRANSMITTANCE", surfEnergy, transmittance, nSurf);
+
+    gasQuartzSurface->SetMaterialPropertiesTable(gasQuartzMPT);
+    //-------------creating border surfaces---------------------
+    new G4LogicalBorderSurface(
+        "GasToQuartz",
+        physGas,
+        physQuartz,
+        gasQuartzSurface
+    );
+
+    new G4LogicalBorderSurface(
+        "QuartzToGas",
+        physQuartz,
+        physGas,
+        gasQuartzSurface
+    );
+*/
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
     
     
 // Air gap

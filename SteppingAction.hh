@@ -23,7 +23,6 @@ private:
     G4int reflectedPhotons = 0;
     G4int tirPhotons = 0;
     
-    
 };
 
 #endif

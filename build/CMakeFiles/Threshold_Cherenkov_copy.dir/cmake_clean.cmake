@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o.d"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o.d"
+  "CMakeFiles/Threshold_Cherenkov_copy.dir/Quartz_Transmittance.cc.o"
+  "CMakeFiles/Threshold_Cherenkov_copy.dir/Quartz_Transmittance.cc.o.d"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/RefractiveIndexModel.cc.o"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/RefractiveIndexModel.cc.o.d"
   "CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o"

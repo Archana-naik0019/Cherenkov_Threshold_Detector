@@ -83,6 +83,12 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event) {
 
 //====================================redef with corsika input========================''''
 
+G4double Emin = 1.045 * GeV;  //ooooooo00000000ooooooo
+//G4double Emax = 3.115 * GeV;  //ooooooo0000000ooooooo
+bool found = false; //ooooooo000000ooooo
+while (!found) {	//ooooooooo0000000ooooo
+
+
  if(currentEntry >= nEntries) currentEntry = 0;
     tree->GetEntry(currentEntry);
     currentEntry++;
@@ -102,6 +108,13 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event) {
     G4double KE = totalE - muonMass;       // kinetic energy [MeV]
     
     fMuonEnergyGeV = KE / GeV;
+    
+    // Keep looping until KE is within desired range
+    if (fMuonEnergyGeV >= Emin/GeV) {
+//    if (fMuonEnergyGeV >= Emin/GeV && fMuonEnergyGeV <= Emax/GeV) {	//ooooo00000oooo
+        found = true;	//oooooooo000000ooooooo
+    
+}   
 
     // Assign mu+/mu- based on ID
     
@@ -126,10 +139,16 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event) {
     fParticleGun->SetParticleMomentumDirection(mom.unit());
     fParticleGun->SetParticleMomentum(p);
 
-    // Define vertex: plane above detector
-    double x = 23*cm; // e.g. ±0.5 m
-    double y = 0*cm;
-    double z = 100*cm;
+    // Define vertex: plane above detector: this is the mid junction of the intersection of 2 scitillators of the top-most booklet
+//    double x = 23*cm; // e.g. ±0.5 m
+//    double y = 0*cm;
+//    double z = 100*cm;
+    // Define vertex: plane above detector: this is the ~mid-point of one of the 2 scitillators of the top-most booklet(the one towards +y and -x wrt previous gun position)
+      double x = 16*cm; // e.g. ±0.5 m
+      double y = 7*cm;
+      double z = 100*cm;
+
+
     
     fParticleGun->SetParticlePosition(G4ThreeVector(x,y,z));
 
@@ -145,9 +164,9 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event) {
     if(eventAction) {
       eventAction->SetThetaPhi(theta_mom, phi_mom);
     }
-
+}
 
 //====================================================================================''''
     
     fParticleGun->GeneratePrimaryVertex(event);
-}
+} //must match with bracs on line 46

@@ -13,6 +13,8 @@
 #include "EventAction.hh"
 #include "G4RunManager.hh"
 #include "G4AnalysisManager.hh"
+#include "G4SystemOfUnits.hh"
+#include "G4ProcessTable.hh"
 
 #include <fstream>
 
@@ -117,6 +119,7 @@ void SteppingAction::UserSteppingAction(const G4Step* step) {
     
     G4Track* track = step->GetTrack();
     
+    
     //*******************************************************************************
     if (track->GetDefinition()->GetParticleName() == "mu-"  ||
         track->GetDefinition()->GetParticleName() == "mu+") {	//''''''''''''
@@ -194,7 +197,7 @@ G4double wavelength = 1239.841939 / (energy* 1.0e6);     // in nm
         runAction->IncrementGeneratedPhotons();
         eventAction->IncrementPrimGeneratedPhotons();   // New method
         
-        G4int eventID = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
+        /*G4int eventID = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
         G4double muonEnergy = eventAction->GetMuonEnergy();
         static G4int lastLoggedEventID = -1;
         static std::ofstream primEventsFile("PrimPhotonEvents.txt", std::ios::app);
@@ -204,13 +207,13 @@ G4double wavelength = 1239.841939 / (energy* 1.0e6);     // in nm
            << " | MuonEnergy = " << muonEnergy/CLHEP::GeV << " GeV"
            << std::endl;
            lastLoggedEventID = eventID;
-        }
+        }*/
         
     } else {
         runAction->IncrementGeneratedPhotons();
         eventAction->IncrementSecGeneratedPhotons();    // New method
         
-        G4int eventID = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
+        /*G4int eventID = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
         G4double muonEnergy = eventAction->GetMuonEnergy();
         static G4int lastLoggedEventID = -1;
         static std::ofstream primEventsFile("SecPhotonEvents.txt", std::ios::app);
@@ -220,16 +223,16 @@ G4double wavelength = 1239.841939 / (energy* 1.0e6);     // in nm
            << " | MuonEnergy = " << muonEnergy/CLHEP::GeV << " GeV"
            << std::endl;
            lastLoggedEventID = eventID;
-        }
+        }*/
     }
     ////////////====================================
         
         auto* analysisManager = G4AnalysisManager::Instance();
         analysisManager->FillH1(analysisManager->GetH1Id("hGeneratedWavelength"), wavelength);
         
-        if (eventAction->AllBookletsHit()) {
-        analysisManager->FillH1(analysisManager->GetH1Id("hGeneratedWavelength_4-fold"), wavelength);
-        }//trial
+//        if (eventAction->AllBookletsHit()) {
+//        analysisManager->FillH1(analysisManager->GetH1Id("hGeneratedWavelength_4-fold"),wavelength);
+//        }//trial
     }
 //    }
     
@@ -242,6 +245,76 @@ G4double wavelength = 1239.841939 / (energy* 1.0e6);     // in nm
         }
 
     //*********************************************************************************
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&Quartz to Air gap check&&&&&&&&&&&&&&&&&&&&&&&&&
+
+// ================= QUARTZ BOTTOM COUNT =================
+G4StepPoint* preStepPoint = step->GetPreStepPoint();
+G4StepPoint* postStepPoint = step->GetPostStepPoint();
+
+if (preStepPoint && postStepPoint &&
+    postStepPoint->GetStepStatus() == fGeomBoundary) {
+
+    G4VPhysicalVolume* preVol  = preStepPoint->GetPhysicalVolume();
+    G4VPhysicalVolume* postVol = postStepPoint->GetPhysicalVolume();
+
+    if (preVol && postVol &&
+        preVol->GetName()  == "QuartzPV" &&
+        postVol->GetName() == "GapPV") {
+
+        // ---- Count photon striking lower face of quartz ----
+        eventAction->IncrementEventPhotonsAtQuartzBottom();
+        runAction->IncrementPhotonsAtQuartzBottom();
+
+        auto* analysisManager = G4AnalysisManager::Instance();
+        analysisManager->FillH1(
+            analysisManager->GetH1Id("hAtQuartzBottomWavelength"),
+            wavelength
+        );
+
+        if (eventAction->AllBookletsHit()) {
+            analysisManager->FillH1(
+                analysisManager->GetH1Id("hAtQuartzBottomWavelength_4-fold"),
+                wavelength
+            );
+        }
+
+        // IMPORTANT:
+        // Do NOT kill the track here
+        
+        //Can I get loss function relation to photon incident angle?
+        const G4ThreeVector& photonDir =
+            preStepPoint->GetMomentumDirection();
+            
+            G4ThreeVector surfaceNormal(0, 0, -1); //normal to quartz surface aligns with z axis
+            
+            G4double cosThetaI = -photonDir.dot(surfaceNormal);
+            G4double thetaI   = std::acos(cosThetaI); //fetching the incident angle
+
+            //filling the histograms
+        analysisManager->FillH1(
+        analysisManager->GetH1Id("hPhotonIncidenceAngle"),
+        thetaI / deg);
+        
+        int bin = std::min(int(thetaI), 179);
+        runAction->IncrementIncidentAtAngle(bin);
+        
+        //specific loss due to TIR
+        auto boundary =
+    dynamic_cast<G4OpBoundaryProcess*>(
+        G4ProcessTable::GetProcessTable()
+            ->FindProcess("OpBoundary", track->GetDefinition())
+    );
+
+        if (boundary->GetStatus() == TotalInternalReflection){
+            runAction->IncrementLostAtAngle(bin);
+        }
+}    
+    }
+
+// ======================================================
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////working counting without opabs,without qe//////////
 //G4StepPoint* preStepPoint = step->GetPreStepPoint();
@@ -264,8 +337,8 @@ G4double wavelength = 1239.841939 / (energy* 1.0e6);     // in nm
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////counting without opabs, with qe/////////////////////////
 
-G4StepPoint* preStepPoint = step->GetPreStepPoint();
-G4StepPoint* postStepPoint = step->GetPostStepPoint();
+//G4StepPoint* preStepPoint = step->GetPreStepPoint();
+//G4StepPoint* postStepPoint = step->GetPostStepPoint();
 
 if (preStepPoint && postStepPoint) {
     G4VPhysicalVolume* preVolume = preStepPoint->GetPhysicalVolume();

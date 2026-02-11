@@ -659,4 +659,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/EventAction.cc.o: \
  /snap/root-framework/952/usr/local/include/TBranchCacheInfo.h \
  /snap/root-framework/952/usr/local/include/TBits.h \
  /root/Geant4Projects/Threshold_Cherenkov_copy/SteppingAction.hh \
- /root/geant4-install/include/Geant4/G4UserSteppingAction.hh
+ /root/geant4-install/include/Geant4/G4UserSteppingAction.hh \
+ /root/geant4-install/include/Geant4/G4UImanager.hh \
+ /root/geant4-install/include/Geant4/G4UIcommandStatus.hh \
+ /root/geant4-install/include/Geant4/G4VStateDependent.hh \
+ /root/geant4-install/include/Geant4/icomsdefs.hh

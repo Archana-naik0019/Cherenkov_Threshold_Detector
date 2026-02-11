@@ -321,6 +321,30 @@ QEManager.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.s
 .PHONY : QEManager.cc.s
 
+Quartz_Transmittance.o: Quartz_Transmittance.cc.o
+.PHONY : Quartz_Transmittance.o
+
+# target to build an object file
+Quartz_Transmittance.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/Quartz_Transmittance.cc.o
+.PHONY : Quartz_Transmittance.cc.o
+
+Quartz_Transmittance.i: Quartz_Transmittance.cc.i
+.PHONY : Quartz_Transmittance.i
+
+# target to preprocess a source file
+Quartz_Transmittance.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/Quartz_Transmittance.cc.i
+.PHONY : Quartz_Transmittance.cc.i
+
+Quartz_Transmittance.s: Quartz_Transmittance.cc.s
+.PHONY : Quartz_Transmittance.s
+
+# target to generate assembly for a file
+Quartz_Transmittance.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Threshold_Cherenkov_copy.dir/build.make CMakeFiles/Threshold_Cherenkov_copy.dir/Quartz_Transmittance.cc.s
+.PHONY : Quartz_Transmittance.cc.s
+
 RefractiveIndexModel.o: RefractiveIndexModel.cc.o
 .PHONY : RefractiveIndexModel.o
 
@@ -474,6 +498,9 @@ help:
 	@echo "... QEManager.o"
 	@echo "... QEManager.i"
 	@echo "... QEManager.s"
+	@echo "... Quartz_Transmittance.o"
+	@echo "... Quartz_Transmittance.i"
+	@echo "... Quartz_Transmittance.s"
 	@echo "... RefractiveIndexModel.o"
 	@echo "... RefractiveIndexModel.i"
 	@echo "... RefractiveIndexModel.s"

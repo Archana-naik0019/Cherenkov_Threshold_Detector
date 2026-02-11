@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/root/Geant4Projects/Threshold_Cherenkov_copy/PhysicsList.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/PhysicsList.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/PrimaryGeneratorAction.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/PrimaryGeneratorAction.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/QEManager.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/QEManager.cc.o.d"
+  "/root/Geant4Projects/Threshold_Cherenkov_copy/Quartz_Transmittance.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/Quartz_Transmittance.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/Quartz_Transmittance.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/RefractiveIndexModel.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/RefractiveIndexModel.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/RefractiveIndexModel.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/RunAction.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/RunAction.cc.o.d"
   "/root/Geant4Projects/Threshold_Cherenkov_copy/SensitiveDetector.cc" "CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o" "gcc" "CMakeFiles/Threshold_Cherenkov_copy.dir/SensitiveDetector.cc.o.d"

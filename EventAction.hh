@@ -26,6 +26,16 @@ public:
     
     void AddMuonTrackLength(G4double length) { fMuonTrackLength += length; }
     void IncrementGeneratedCherenkovPhotons() { ++fGeneratedCherenkovPhotons; }
+    
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    void IncrementEventPhotonsAtQuartzBottom() { eventPhotonsAtQuartzBottom++; }
+    G4int GetEventPhotonsAtQuartzBottom() const { return eventPhotonsAtQuartzBottom; }
+    //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    
+    void StoreQuartzPhoton(G4double wl);
+    const std::vector<G4double>& GetQuartzPhotons() const;
+
+
 
     void ResetEventCounters() {
         eventGeneratedPhotons = 0;
@@ -38,7 +48,10 @@ public:
         
         fMuonTrackLength = 0.0;
         fGeneratedCherenkovPhotons = 0;
+        
+        eventPhotonsAtQuartzBottom = 0; //&&&&&&&&&&&&&&&&
     }
+
     
     G4double muonEnergyThisEvent = 0.;
     void SetMuonEnergy(G4double e) { muonEnergyThisEvent = e; }
@@ -61,11 +74,15 @@ public:
         fTheta = theta_mom;
         fPhi   = phi_mom;
     }
+    
 
 private:
     G4int eventGeneratedPhotons;
     G4int eventDetectedPhotons;
     G4int eventPhotonsAtPMT;
+    
+    G4int eventPhotonsAtQuartzBottom;//&&&&&&&&&&&&
+    std::vector<G4double> fQuartzWavelengths;
     
     G4int eventPrimGeneratedPhotons = 0;  // NEW
     G4int eventSecGeneratedPhotons = 0;   // NEW
@@ -73,11 +90,13 @@ private:
     G4double fMuonTrackLength = 0.0; //for yield
     G4int fGeneratedCherenkovPhotons = 0; //for yield
     
+    //G4int fEventPhotonsAtQuartzBottom = 0; //&&&&&&&&&&&&&&&
+    
     std::array<G4bool, 4> fBookletHits; // = {false, false, false, false}; //mapping for 4-fold
     
     G4double fTheta;
     G4double fPhi;
-
+    
 };
 
 #endif

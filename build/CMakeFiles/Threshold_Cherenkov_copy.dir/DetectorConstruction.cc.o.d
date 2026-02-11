@@ -370,6 +370,8 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: \
  /root/geant4-install/include/Geant4/G4LogicalSurface.hh \
  /root/geant4-install/include/Geant4/G4LogicalSurface.icc \
  /root/geant4-install/include/Geant4/G4LogicalSkinSurface.icc \
+ /root/geant4-install/include/Geant4/G4LogicalBorderSurface.hh \
+ /root/geant4-install/include/Geant4/G4LogicalBorderSurface.icc \
  /root/geant4-install/include/Geant4/G4SDManager.hh \
  /root/geant4-install/include/Geant4/G4HCtable.hh \
  /root/geant4-install/include/Geant4/G4SDStructure.hh \
@@ -427,4 +429,6 @@ CMakeFiles/Threshold_Cherenkov_copy.dir/DetectorConstruction.cc.o: \
  /root/geant4-install/include/Geant4/G4ThreeVector.hh \
  /root/geant4-install/include/Geant4/globals.hh \
  /root/Geant4Projects/Threshold_Cherenkov_copy/ConicalReflector.hh \
- /root/Geant4Projects/Threshold_Cherenkov_copy/RefractiveIndexModel.hh
+ /root/Geant4Projects/Threshold_Cherenkov_copy/RefractiveIndexModel.hh \
+ /root/Geant4Projects/Threshold_Cherenkov_copy/Quartz_Transmittance.hh \
+ /root/geant4-install/include/Geant4/G4MaterialPropertiesTable.hh
